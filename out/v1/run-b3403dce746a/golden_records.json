@@ -1,0 +1,10207 @@
+[
+ {
+  "slot_id": "A1-L-B1/S1-00",
+  "fixture_id": "A1-L-B1",
+  "x": 0.132,
+  "z": 0.139,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00001",
+   "p3-00001"
+  ],
+  "unresolved_text": [
+   "LEMON LIME 2 LITER"
+  ]
+ },
+ {
+  "slot_id": "A1-L-B1/S1-01",
+  "fixture_id": "A1-L-B1",
+  "x": 0.377,
+  "z": 0.15,
+  "status": "changed",
+  "gtin": "081277000115",
+  "product": "Polar Peak Lemon Lime 12 fl oz",
+  "previous_gtin": "081277000139",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00002",
+   "p2-00001",
+   "p3-00002"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S1-02",
+  "fixture_id": "A1-L-B1",
+  "x": 0.493,
+  "z": -0.001,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00439"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S1-03",
+  "fixture_id": "A1-L-B1",
+  "x": 0.637,
+  "z": 0.168,
+  "status": "gap",
+  "gtin": "081277000139",
+  "product": "Polar Peak Lemon Lime 2 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00003",
+   "p2-00002"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S1-04",
+  "fixture_id": "A1-L-B1",
+  "x": 0.878,
+  "z": 0.144,
+  "status": "changed",
+  "gtin": "081277000115",
+  "product": "Polar Peak Lemon Lime 12 fl oz",
+  "previous_gtin": "081277000139",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00004",
+   "p2-00003",
+   "p3-00003"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S1-05",
+  "fixture_id": "A1-L-B1",
+  "x": 1.12,
+  "z": 0.155,
+  "status": "changed",
+  "gtin": "081234000127",
+  "product": "Summit Fizz Lemon Lime 12 fl oz",
+  "previous_gtin": "081277000139",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00005",
+   "p2-00004",
+   "p3-00004"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S1-06",
+  "fixture_id": "A1-L-B1",
+  "x": 1.375,
+  "z": 0.146,
+  "status": "in_stock",
+  "gtin": "081234000240",
+  "product": "Summit Fizz Root Beer Diet 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00006",
+   "p2-00005",
+   "p3-00005"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S2-07",
+  "fixture_id": "A1-L-B1",
+  "x": 0.13,
+  "z": 0.487,
+  "status": "changed",
+  "gtin": "082245000076",
+  "product": "Clearbrook Sparkling Water Lemon 1 L",
+  "previous_gtin": "082245000069",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00007",
+   "p2-00006",
+   "p3-00006"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S2-08",
+  "fixture_id": "A1-L-B1",
+  "x": 0.368,
+  "z": 0.495,
+  "status": "changed",
+  "gtin": "082245000076",
+  "product": "Clearbrook Sparkling Water Lemon 1 L",
+  "previous_gtin": "082245000069",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00008",
+   "p2-00007",
+   "p3-00007"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S2-09",
+  "fixture_id": "A1-L-B1",
+  "x": 0.622,
+  "z": 0.487,
+  "status": "gap",
+  "gtin": "082210000018",
+  "product": "Brightwater Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00009",
+   "p1-00010",
+   "p2-00008",
+   "p2-00009"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S2-10",
+  "fixture_id": "A1-L-B1",
+  "x": 0.871,
+  "z": 0.487,
+  "status": "changed",
+  "gtin": "082210000025",
+  "product": "Brightwater Sparkling Water Grapefruit 1 L",
+  "previous_gtin": "082210000018",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00011",
+   "p2-00010",
+   "p3-00008"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S2-11",
+  "fixture_id": "A1-L-B1",
+  "x": 1.134,
+  "z": 0.51,
+  "status": "in_stock",
+  "gtin": "082210000025",
+  "product": "Brightwater Sparkling Water Grapefruit 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00012",
+   "p2-00011",
+   "p3-00009"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S2-12",
+  "fixture_id": "A1-L-B1",
+  "x": 1.406,
+  "z": 0.498,
+  "status": "gap",
+  "gtin": "082245000014",
+  "product": "Clearbrook Sparkling Water Lime 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00013",
+   "p2-00012"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S3-13",
+  "fixture_id": "A1-L-B1",
+  "x": 0.102,
+  "z": 0.858,
+  "status": "in_stock",
+  "gtin": "081234000127",
+  "product": "Summit Fizz Lemon Lime 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00014",
+   "p2-00013",
+   "p3-00011"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S3-14",
+  "fixture_id": "A1-L-B1",
+  "x": 0.144,
+  "z": 0.701,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p3-00433"
+  ],
+  "unresolved_text": [
+   "UNIT PRICE $0.21 PER OZ"
+  ]
+ },
+ {
+  "slot_id": "A1-L-B1/S3-15",
+  "fixture_id": "A1-L-B1",
+  "x": 0.367,
+  "z": 0.855,
+  "status": "changed",
+  "gtin": "081277000320",
+  "product": "Polar Peak Ginger Ale 20 fl oz",
+  "previous_gtin": "081277000337",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00015",
+   "p2-00014",
+   "p3-00012"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S3-16",
+  "fixture_id": "A1-L-B1",
+  "x": 0.658,
+  "z": 0.827,
+  "status": "in_stock",
+  "gtin": "081277000320",
+  "product": "Polar Peak Ginger Ale 20 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00016",
+   "p2-00015",
+   "p3-00013"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S3-17",
+  "fixture_id": "A1-L-B1",
+  "x": 0.875,
+  "z": 0.852,
+  "status": "in_stock",
+  "gtin": "081277000320",
+  "product": "Polar Peak Ginger Ale 20 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00017",
+   "p2-00016",
+   "p3-00014"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S3-18",
+  "fixture_id": "A1-L-B1",
+  "x": 1.135,
+  "z": 0.849,
+  "status": "in_stock",
+  "gtin": "081277000139",
+  "product": "Polar Peak Lemon Lime 2 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00018",
+   "p2-00017",
+   "p3-00015"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S3-19",
+  "fixture_id": "A1-L-B1",
+  "x": 1.381,
+  "z": 0.853,
+  "status": "changed",
+  "gtin": "081277000115",
+  "product": "Polar Peak Lemon Lime 12 fl oz",
+  "previous_gtin": "081277000139",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00019",
+   "p2-00018",
+   "p3-00016",
+   "p3-00017"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S4-20",
+  "fixture_id": "A1-L-B1",
+  "x": 0.133,
+  "z": 1.194,
+  "status": "changed",
+  "gtin": "082210000025",
+  "product": "Brightwater Sparkling Water Grapefruit 1 L",
+  "previous_gtin": "082245000069",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00020",
+   "p1-00021",
+   "p2-00019",
+   "p3-00018"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S4-21",
+  "fixture_id": "A1-L-B1",
+  "x": 0.366,
+  "z": 1.2,
+  "status": "in_stock",
+  "gtin": "082245000052",
+  "product": "Clearbrook Sparkling Water Unflavored 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00022",
+   "p2-00020",
+   "p3-00019"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S4-22",
+  "fixture_id": "A1-L-B1",
+  "x": 0.617,
+  "z": 1.205,
+  "status": "in_stock",
+  "gtin": "082210000018",
+  "product": "Brightwater Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00021",
+   "p3-00020"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S4-23",
+  "fixture_id": "A1-L-B1",
+  "x": 0.867,
+  "z": 1.196,
+  "status": "changed",
+  "gtin": "082210000049",
+  "product": "Brightwater Sparkling Water Black Cherry 1 L",
+  "previous_gtin": "082210000032",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00023",
+   "p2-00022",
+   "p3-00021"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S4-24",
+  "fixture_id": "A1-L-B1",
+  "x": 1.131,
+  "z": 1.192,
+  "status": "changed",
+  "gtin": "082210000032",
+  "product": "Brightwater Sparkling Water Black Cherry 12 fl oz",
+  "previous_gtin": "082210000049",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00024",
+   "p2-00023",
+   "p3-00022"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B1/S4-25",
+  "fixture_id": "A1-L-B1",
+  "x": 1.364,
+  "z": 1.178,
+  "status": "in_stock",
+  "gtin": "082245000069",
+  "product": "Clearbrook Sparkling Water Lemon 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00025",
+   "p2-00024",
+   "p3-00023"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S1-00",
+  "fixture_id": "A1-L-B2",
+  "x": 0.098,
+  "z": 0.162,
+  "status": "gap",
+  "gtin": "081277000016",
+  "product": "Polar Peak Cola 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00026",
+   "p2-00025"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S1-01",
+  "fixture_id": "A1-L-B2",
+  "x": 0.371,
+  "z": 0.149,
+  "status": "in_stock",
+  "gtin": "081277000153",
+  "product": "Polar Peak Lemon Lime Diet 20 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00027",
+   "p2-00026",
+   "p3-00024"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S1-02",
+  "fixture_id": "A1-L-B2",
+  "x": 0.866,
+  "z": 0.144,
+  "status": "changed",
+  "gtin": "081277000115",
+  "product": "Polar Peak Lemon Lime 12 fl oz",
+  "previous_gtin": "081277000122",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00029",
+   "p2-00028",
+   "p3-00025"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S1-03",
+  "fixture_id": "A1-L-B2",
+  "x": 1.374,
+  "z": 0.144,
+  "status": "changed",
+  "gtin": "081277000221",
+  "product": "Polar Peak Root Beer Cherry 12 fl oz",
+  "previous_gtin": "081277000245",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00031",
+   "p2-00030",
+   "p3-00027"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S1-08",
+  "fixture_id": "A1-L-B2",
+  "x": 0.608,
+  "z": 0.18,
+  "status": "gap",
+  "gtin": "081277000139",
+  "product": "Polar Peak Lemon Lime 2 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00028",
+   "p2-00027"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S1-12",
+  "fixture_id": "A1-L-B2",
+  "x": 1.127,
+  "z": 0.177,
+  "status": "changed",
+  "gtin": "081277000221",
+  "product": "Polar Peak Root Beer Cherry 12 fl oz",
+  "previous_gtin": "081277000245",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00030",
+   "p2-00029",
+   "p3-00026"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S2-04",
+  "fixture_id": "A1-L-B2",
+  "x": 0.133,
+  "z": 0.487,
+  "status": "changed",
+  "gtin": "082245000076",
+  "product": "Clearbrook Sparkling Water Lemon 1 L",
+  "previous_gtin": "082245000069",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00032",
+   "p2-00031",
+   "p3-00028"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S2-05",
+  "fixture_id": "A1-L-B2",
+  "x": 0.277,
+  "z": 0.36,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00441"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S2-06",
+  "fixture_id": "A1-L-B2",
+  "x": 0.383,
+  "z": 0.511,
+  "status": "changed",
+  "gtin": "082245000069",
+  "product": "Clearbrook Sparkling Water Lemon 12 fl oz",
+  "previous_gtin": "082245000076",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00033",
+   "p2-00032",
+   "p3-00029"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S2-07",
+  "fixture_id": "A1-L-B2",
+  "x": 0.446,
+  "z": 0.365,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00440"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S2-09",
+  "fixture_id": "A1-L-B2",
+  "x": 0.653,
+  "z": 0.492,
+  "status": "gap",
+  "gtin": "082245000045",
+  "product": "Clearbrook Sparkling Water Grapefruit 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00033"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S2-10",
+  "fixture_id": "A1-L-B2",
+  "x": 0.742,
+  "z": 0.339,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p1-00450"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S2-11",
+  "fixture_id": "A1-L-B2",
+  "x": 0.878,
+  "z": 0.496,
+  "status": "in_stock",
+  "gtin": "082245000076",
+  "product": "Clearbrook Sparkling Water Lemon 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00034",
+   "p2-00034",
+   "p3-00030"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S2-13",
+  "fixture_id": "A1-L-B2",
+  "x": 1.139,
+  "z": 0.495,
+  "status": "gap",
+  "gtin": "082245000045",
+  "product": "Clearbrook Sparkling Water Grapefruit 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00035",
+   "p2-00035"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S2-14",
+  "fixture_id": "A1-L-B2",
+  "x": 1.383,
+  "z": 0.5,
+  "status": "changed",
+  "gtin": "082245000038",
+  "product": "Clearbrook Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": "082245000045",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00036",
+   "p1-00037",
+   "p2-00036",
+   "p3-00032"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S3-15",
+  "fixture_id": "A1-L-B2",
+  "x": 0.144,
+  "z": 0.85,
+  "status": "in_stock",
+  "gtin": "081277000085",
+  "product": "Polar Peak Cola Cherry 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00038",
+   "p2-00037",
+   "p2-00038",
+   "p3-00033"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S3-16",
+  "fixture_id": "A1-L-B2",
+  "x": 0.371,
+  "z": 0.846,
+  "status": "in_stock",
+  "gtin": "081234000332",
+  "product": "Summit Fizz Orange Zero Sugar 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00039",
+   "p2-00039",
+   "p3-00034"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S3-17",
+  "fixture_id": "A1-L-B2",
+  "x": 0.624,
+  "z": 0.854,
+  "status": "in_stock",
+  "gtin": "081234000332",
+  "product": "Summit Fizz Orange Zero Sugar 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00040",
+   "p2-00040",
+   "p2-00041",
+   "p3-00035"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S3-18",
+  "fixture_id": "A1-L-B2",
+  "x": 1.129,
+  "z": 0.861,
+  "status": "changed",
+  "gtin": "081234000301",
+  "product": "Summit Fizz Orange 12 fl oz",
+  "previous_gtin": "081234000325",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00042",
+   "p2-00043",
+   "p3-00037"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S3-19",
+  "fixture_id": "A1-L-B2",
+  "x": 1.385,
+  "z": 0.855,
+  "status": "changed",
+  "gtin": "081234000042",
+  "product": "Summit Fizz Cola Zero Sugar 12 fl oz",
+  "previous_gtin": "081234000011",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00043",
+   "p2-00044",
+   "p3-00038"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S3-24",
+  "fixture_id": "A1-L-B2",
+  "x": 0.889,
+  "z": 0.876,
+  "status": "in_stock",
+  "gtin": "081234000301",
+  "product": "Summit Fizz Orange 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00041",
+   "p2-00042",
+   "p3-00036"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S4-20",
+  "fixture_id": "A1-L-B2",
+  "x": 0.134,
+  "z": 1.214,
+  "status": "in_stock",
+  "gtin": "082245000069",
+  "product": "Clearbrook Sparkling Water Lemon 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00044",
+   "p2-00045",
+   "p3-00039"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S4-21",
+  "fixture_id": "A1-L-B2",
+  "x": 0.366,
+  "z": 1.22,
+  "status": "gap",
+  "gtin": "082245000045",
+  "product": "Clearbrook Sparkling Water Grapefruit 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00045"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S4-22",
+  "fixture_id": "A1-L-B2",
+  "x": 0.617,
+  "z": 1.202,
+  "status": "changed",
+  "gtin": "082245000021",
+  "product": "Clearbrook Sparkling Water Lime 1 L",
+  "previous_gtin": "082245000014",
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00046",
+   "p3-00040"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S4-23",
+  "fixture_id": "A1-L-B2",
+  "x": 0.888,
+  "z": 1.208,
+  "status": "in_stock",
+  "gtin": "082245000014",
+  "product": "Clearbrook Sparkling Water Lime 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00046",
+   "p2-00047",
+   "p3-00041"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S4-25",
+  "fixture_id": "A1-L-B2",
+  "x": 1.153,
+  "z": 1.19,
+  "status": "in_stock",
+  "gtin": "082245000014",
+  "product": "Clearbrook Sparkling Water Lime 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00047",
+   "p2-00048",
+   "p2-00049",
+   "p3-00042"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S4-26",
+  "fixture_id": "A1-L-B2",
+  "x": 1.384,
+  "z": 1.072,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p1-00451"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B2/S4-27",
+  "fixture_id": "A1-L-B2",
+  "x": 1.391,
+  "z": 1.207,
+  "status": "changed",
+  "gtin": "082210000025",
+  "product": "Brightwater Sparkling Water Grapefruit 1 L",
+  "previous_gtin": "082210000018",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00048",
+   "p2-00050",
+   "p3-00043"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S1-00",
+  "fixture_id": "A1-L-B3",
+  "x": 0.122,
+  "z": 0.173,
+  "status": "in_stock",
+  "gtin": "081234000011",
+  "product": "Summit Fizz Cola 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00049",
+   "p2-00051",
+   "p3-00044"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S1-01",
+  "fixture_id": "A1-L-B3",
+  "x": 0.348,
+  "z": 0.16,
+  "status": "gap",
+  "gtin": "081234000011",
+  "product": "Summit Fizz Cola 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00050",
+   "p2-00052"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S1-02",
+  "fixture_id": "A1-L-B3",
+  "x": 0.571,
+  "z": 0.004,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p3-00434"
+  ],
+  "unresolved_text": [
+   "$3.49 UNIT PRICE 29.1c/OZ"
+  ]
+ },
+ {
+  "slot_id": "A1-L-B3/S1-03",
+  "fixture_id": "A1-L-B3",
+  "x": 0.624,
+  "z": 0.134,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00051",
+   "p2-00053",
+   "p3-00045"
+  ],
+  "unresolved_text": [
+   "Summit Ro0t Becr Cherry 355 ML"
+  ]
+ },
+ {
+  "slot_id": "A1-L-B3/S1-04",
+  "fixture_id": "A1-L-B3",
+  "x": 0.876,
+  "z": 0.161,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p1-00052",
+   "p2-00054"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S1-05",
+  "fixture_id": "A1-L-B3",
+  "x": 1.133,
+  "z": 0.125,
+  "status": "changed",
+  "gtin": "081277000177",
+  "product": "Polar Peak Root Beer 2 L",
+  "previous_gtin": "081277000160",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00053",
+   "p2-00055",
+   "p3-00047"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S1-06",
+  "fixture_id": "A1-L-B3",
+  "x": 1.379,
+  "z": 0.153,
+  "status": "in_stock",
+  "gtin": "081277000160",
+  "product": "Polar Peak Root Beer 20 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00054",
+   "p2-00056",
+   "p3-00048"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S2-07",
+  "fixture_id": "A1-L-B3",
+  "x": 0.124,
+  "z": 0.508,
+  "status": "in_stock",
+  "gtin": "082245000038",
+  "product": "Clearbrook Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00055",
+   "p2-00057",
+   "p3-00049"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S2-08",
+  "fixture_id": "A1-L-B3",
+  "x": 0.366,
+  "z": 0.497,
+  "status": "in_stock",
+  "gtin": "082245000038",
+  "product": "Clearbrook Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00056",
+   "p1-00057",
+   "p2-00058",
+   "p3-00050"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S2-09",
+  "fixture_id": "A1-L-B3",
+  "x": 0.487,
+  "z": 0.351,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00443"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S2-10",
+  "fixture_id": "A1-L-B3",
+  "x": 0.622,
+  "z": 0.486,
+  "status": "in_stock",
+  "gtin": "082245000038",
+  "product": "Clearbrook Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00058",
+   "p2-00059",
+   "p3-00051"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S2-11",
+  "fixture_id": "A1-L-B3",
+  "x": 0.843,
+  "z": 0.508,
+  "status": "in_stock",
+  "gtin": "082210000025",
+  "product": "Brightwater Sparkling Water Grapefruit 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00059",
+   "p2-00060",
+   "p3-00052"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S2-12",
+  "fixture_id": "A1-L-B3",
+  "x": 1.12,
+  "z": 0.517,
+  "status": "changed",
+  "gtin": "082210000018",
+  "product": "Brightwater Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": "082210000025",
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00061",
+   "p3-00053"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S2-13",
+  "fixture_id": "A1-L-B3",
+  "x": 1.348,
+  "z": 0.491,
+  "status": "changed",
+  "gtin": "082245000014",
+  "product": "Clearbrook Sparkling Water Lime 12 fl oz",
+  "previous_gtin": "082245000069",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00060",
+   "p2-00062",
+   "p3-00054"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S3-14",
+  "fixture_id": "A1-L-B3",
+  "x": 0.111,
+  "z": 0.854,
+  "status": "changed",
+  "gtin": "081234000448",
+  "product": "Summit Fizz Ginger Ale Diet 2 L",
+  "previous_gtin": "081234000370",
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00063",
+   "p3-00055"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S3-15",
+  "fixture_id": "A1-L-B3",
+  "x": 0.385,
+  "z": 0.869,
+  "status": "in_stock",
+  "gtin": "081234000400",
+  "product": "Summit Fizz Ginger Ale Zero Sugar 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00061",
+   "p2-00064",
+   "p3-00056"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S3-16",
+  "fixture_id": "A1-L-B3",
+  "x": 0.653,
+  "z": 0.86,
+  "status": "in_stock",
+  "gtin": "081234000400",
+  "product": "Summit Fizz Ginger Ale Zero Sugar 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00062",
+   "p3-00057"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S3-17",
+  "fixture_id": "A1-L-B3",
+  "x": 0.883,
+  "z": 0.861,
+  "status": "changed",
+  "gtin": "081234000028",
+  "product": "Summit Fizz Cola 20 fl oz",
+  "previous_gtin": "081234000011",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00063",
+   "p2-00065",
+   "p3-00058"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S3-18",
+  "fixture_id": "A1-L-B3",
+  "x": 1.122,
+  "z": 0.86,
+  "status": "in_stock",
+  "gtin": "081234000028",
+  "product": "Summit Fizz Cola 20 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.8,
+  "detections": [
+   "p1-00064",
+   "p1-00065",
+   "p2-00066",
+   "p3-00059",
+   "p3-00060"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S3-19",
+  "fixture_id": "A1-L-B3",
+  "x": 1.382,
+  "z": 0.861,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00066",
+   "p2-00067",
+   "p3-00061"
+  ],
+  "unresolved_text": [
+   "Cola 20oz"
+  ]
+ },
+ {
+  "slot_id": "A1-L-B3/S4-20",
+  "fixture_id": "A1-L-B3",
+  "x": 0.126,
+  "z": 1.136,
+  "status": "in_stock",
+  "gtin": "082210000025",
+  "product": "Brightwater Sparkling Water Grapefruit 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00067",
+   "p3-00062",
+   "p3-00435"
+  ],
+  "unresolved_text": [
+   "SALE 2/$5"
+  ]
+ },
+ {
+  "slot_id": "A1-L-B3/S4-21",
+  "fixture_id": "A1-L-B3",
+  "x": 0.587,
+  "z": 1.07,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00442"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S4-22",
+  "fixture_id": "A1-L-B3",
+  "x": 0.647,
+  "z": 1.203,
+  "status": "in_stock",
+  "gtin": "082210000032",
+  "product": "Brightwater Sparkling Water Black Cherry 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00069",
+   "p2-00069",
+   "p3-00064"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S4-23",
+  "fixture_id": "A1-L-B3",
+  "x": 0.898,
+  "z": 1.184,
+  "status": "changed",
+  "gtin": "082210000025",
+  "product": "Brightwater Sparkling Water Grapefruit 1 L",
+  "previous_gtin": "082210000018",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00070",
+   "p2-00070",
+   "p3-00065"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S4-24",
+  "fixture_id": "A1-L-B3",
+  "x": 1.131,
+  "z": 1.177,
+  "status": "changed",
+  "gtin": "082245000045",
+  "product": "Clearbrook Sparkling Water Grapefruit 1 L",
+  "previous_gtin": "082245000038",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00071",
+   "p2-00071",
+   "p3-00066"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S4-25",
+  "fixture_id": "A1-L-B3",
+  "x": 1.387,
+  "z": 1.182,
+  "status": "in_stock",
+  "gtin": "082245000045",
+  "product": "Clearbrook Sparkling Water Grapefruit 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00072",
+   "p2-00072",
+   "p3-00067"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-L-B3/S4-26",
+  "fixture_id": "A1-L-B3",
+  "x": 0.373,
+  "z": 1.226,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00068",
+   "p2-00068",
+   "p3-00063"
+  ],
+  "unresolved_text": [
+   "Brightwater Sparkling Water MANGO 12oz"
+  ]
+ },
+ {
+  "slot_id": "A1-R-B1/S1-00",
+  "fixture_id": "A1-R-B1",
+  "x": 0.103,
+  "z": 0.15,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00073",
+   "p2-00073",
+   "p3-00068"
+  ],
+  "unresolved_text": [
+   "2 LITER SUMMIT F1ZZ ROOT BEER ZERO 5UGAR"
+  ]
+ },
+ {
+  "slot_id": "A1-R-B1/S1-01",
+  "fixture_id": "A1-R-B1",
+  "x": 0.407,
+  "z": 0.166,
+  "status": "in_stock",
+  "gtin": "081234000233",
+  "product": "Summit Fizz Root Beer Zero Sugar 2 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00074",
+   "p2-00074",
+   "p3-00069"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S1-02",
+  "fixture_id": "A1-R-B1",
+  "x": 0.619,
+  "z": 0.14,
+  "status": "changed",
+  "gtin": "081234000127",
+  "product": "Summit Fizz Lemon Lime 12 fl oz",
+  "previous_gtin": "081277000139",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00075",
+   "p2-00075",
+   "p3-00070"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S1-03",
+  "fixture_id": "A1-R-B1",
+  "x": 0.87,
+  "z": 0.151,
+  "status": "changed",
+  "gtin": "081277000139",
+  "product": "Polar Peak Lemon Lime 2 L",
+  "previous_gtin": "081277000115",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00076",
+   "p2-00076",
+   "p3-00071"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S1-04",
+  "fixture_id": "A1-R-B1",
+  "x": 1.111,
+  "z": 0.147,
+  "status": "in_stock",
+  "gtin": "081234000172",
+  "product": "Summit Fizz Lemon Lime Cherry 20 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00077",
+   "p2-00077",
+   "p3-00072"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S1-05",
+  "fixture_id": "A1-R-B1",
+  "x": 1.351,
+  "z": 0.124,
+  "status": "changed",
+  "gtin": "081234000189",
+  "product": "Summit Fizz Lemon Lime Cherry 2 L",
+  "previous_gtin": "081234000172",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00078",
+   "p2-00078",
+   "p3-00073"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S2-06",
+  "fixture_id": "A1-R-B1",
+  "x": 0.115,
+  "z": 0.497,
+  "status": "in_stock",
+  "gtin": "082245000069",
+  "product": "Clearbrook Sparkling Water Lemon 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00079",
+   "p2-00079",
+   "p3-00074"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S2-07",
+  "fixture_id": "A1-R-B1",
+  "x": 0.374,
+  "z": 0.498,
+  "status": "in_stock",
+  "gtin": "082245000076",
+  "product": "Clearbrook Sparkling Water Lemon 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00080",
+   "p2-00080",
+   "p3-00075"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S2-08",
+  "fixture_id": "A1-R-B1",
+  "x": 0.633,
+  "z": 0.49,
+  "status": "changed",
+  "gtin": "082245000076",
+  "product": "Clearbrook Sparkling Water Lemon 1 L",
+  "previous_gtin": "082245000069",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00081",
+   "p2-00081",
+   "p3-00076"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S2-09",
+  "fixture_id": "A1-R-B1",
+  "x": 0.906,
+  "z": 0.486,
+  "status": "gap",
+  "gtin": "082210000025",
+  "product": "Brightwater Sparkling Water Grapefruit 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00082",
+   "p2-00082"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S2-10",
+  "fixture_id": "A1-R-B1",
+  "x": 1.125,
+  "z": 0.486,
+  "status": "in_stock",
+  "gtin": "082210000018",
+  "product": "Brightwater Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p3-00077",
+   "p3-00078"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S2-11",
+  "fixture_id": "A1-R-B1",
+  "x": 1.366,
+  "z": 0.485,
+  "status": "changed",
+  "gtin": "082210000025",
+  "product": "Brightwater Sparkling Water Grapefruit 1 L",
+  "previous_gtin": "082210000018",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00083",
+   "p2-00083",
+   "p3-00079"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S3-12",
+  "fixture_id": "A1-R-B1",
+  "x": 0.128,
+  "z": 0.837,
+  "status": "in_stock",
+  "gtin": "081277000085",
+  "product": "Polar Peak Cola Cherry 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00084",
+   "p1-00085",
+   "p2-00084",
+   "p3-00080"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S3-13",
+  "fixture_id": "A1-R-B1",
+  "x": 0.35,
+  "z": 0.85,
+  "status": "changed",
+  "gtin": "081277000092",
+  "product": "Polar Peak Cola Cherry 20 fl oz",
+  "previous_gtin": "081277000023",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00086",
+   "p1-00087",
+   "p2-00085",
+   "p3-00081"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S3-14",
+  "fixture_id": "A1-R-B1",
+  "x": 0.606,
+  "z": 0.837,
+  "status": "in_stock",
+  "gtin": "081234000011",
+  "product": "Summit Fizz Cola 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00088",
+   "p2-00086",
+   "p3-00082"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S3-15",
+  "fixture_id": "A1-R-B1",
+  "x": 0.898,
+  "z": 0.851,
+  "status": "changed",
+  "gtin": "081234000035",
+  "product": "Summit Fizz Cola 2 L",
+  "previous_gtin": "081234000011",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00089",
+   "p2-00087",
+   "p3-00083"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S3-16",
+  "fixture_id": "A1-R-B1",
+  "x": 1.125,
+  "z": 0.865,
+  "status": "changed",
+  "gtin": "081277000313",
+  "product": "Polar Peak Ginger Ale 12 fl oz",
+  "previous_gtin": "081277000337",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00090",
+   "p2-00088",
+   "p3-00084"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S3-17",
+  "fixture_id": "A1-R-B1",
+  "x": 1.377,
+  "z": 0.865,
+  "status": "in_stock",
+  "gtin": "081277000313",
+  "product": "Polar Peak Ginger Ale 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00091",
+   "p2-00089",
+   "p3-00085"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S4-18",
+  "fixture_id": "A1-R-B1",
+  "x": 0.139,
+  "z": 1.206,
+  "status": "changed",
+  "gtin": "082210000018",
+  "product": "Brightwater Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": "082210000025",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00092",
+   "p2-00090",
+   "p3-00086",
+   "p3-00087"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S4-19",
+  "fixture_id": "A1-R-B1",
+  "x": 0.354,
+  "z": 1.193,
+  "status": "in_stock",
+  "gtin": "082210000018",
+  "product": "Brightwater Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00093",
+   "p2-00091",
+   "p3-00088"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S4-20",
+  "fixture_id": "A1-R-B1",
+  "x": 0.6,
+  "z": 1.193,
+  "status": "in_stock",
+  "gtin": "082210000032",
+  "product": "Brightwater Sparkling Water Black Cherry 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00094",
+   "p2-00092",
+   "p3-00089"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S4-21",
+  "fixture_id": "A1-R-B1",
+  "x": 0.905,
+  "z": 1.209,
+  "status": "in_stock",
+  "gtin": "082210000032",
+  "product": "Brightwater Sparkling Water Black Cherry 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00095",
+   "p2-00093",
+   "p3-00090"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S4-22",
+  "fixture_id": "A1-R-B1",
+  "x": 1.141,
+  "z": 1.222,
+  "status": "in_stock",
+  "gtin": "082210000032",
+  "product": "Brightwater Sparkling Water Black Cherry 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00096",
+   "p2-00094",
+   "p3-00091"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B1/S4-23",
+  "fixture_id": "A1-R-B1",
+  "x": 1.373,
+  "z": 1.19,
+  "status": "changed",
+  "gtin": "082245000076",
+  "product": "Clearbrook Sparkling Water Lemon 1 L",
+  "previous_gtin": "082245000069",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00097",
+   "p1-00098",
+   "p2-00095",
+   "p3-00092",
+   "p3-00093"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S1-00",
+  "fixture_id": "A1-R-B2",
+  "x": 0.144,
+  "z": 0.169,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00099",
+   "p2-00096",
+   "p3-00094"
+  ],
+  "unresolved_text": [
+   "Cola Zero Sug"
+  ]
+ },
+ {
+  "slot_id": "A1-R-B2/S1-01",
+  "fixture_id": "A1-R-B2",
+  "x": 0.36,
+  "z": 0.158,
+  "status": "changed",
+  "gtin": "081234000066",
+  "product": "Summit Fizz Cola Zero Sugar 2 L",
+  "previous_gtin": "081234000011",
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00100",
+   "p3-00095"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S1-02",
+  "fixture_id": "A1-R-B2",
+  "x": 0.623,
+  "z": 0.157,
+  "status": "changed",
+  "gtin": "081234000288",
+  "product": "Summit Fizz Root Beer Cherry 20 fl oz",
+  "previous_gtin": "081234000295",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00101",
+   "p2-00097",
+   "p3-00096"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S1-03",
+  "fixture_id": "A1-R-B2",
+  "x": 0.874,
+  "z": 0.03,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p1-00452"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S1-04",
+  "fixture_id": "A1-R-B2",
+  "x": 1.114,
+  "z": 0.153,
+  "status": "changed",
+  "gtin": "081234000288",
+  "product": "Summit Fizz Root Beer Cherry 20 fl oz",
+  "previous_gtin": "081234000271",
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00103",
+   "p3-00098"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S1-05",
+  "fixture_id": "A1-R-B2",
+  "x": 1.381,
+  "z": 0.153,
+  "status": "changed",
+  "gtin": "081234000349",
+  "product": "Summit Fizz Orange Zero Sugar 2 L",
+  "previous_gtin": "081234000332",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00104",
+   "p2-00099",
+   "p3-00099"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S1-09",
+  "fixture_id": "A1-R-B2",
+  "x": 0.864,
+  "z": 0.188,
+  "status": "changed",
+  "gtin": "081234000196",
+  "product": "Summit Fizz Root Beer 20 fl oz",
+  "previous_gtin": "081234000295",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00102",
+   "p2-00098",
+   "p3-00097"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S2-06",
+  "fixture_id": "A1-R-B2",
+  "x": 0.122,
+  "z": 0.519,
+  "status": "changed",
+  "gtin": "082245000076",
+  "product": "Clearbrook Sparkling Water Lemon 1 L",
+  "previous_gtin": "082245000069",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00105",
+   "p2-00100",
+   "p3-00100",
+   "p3-00101"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S2-07",
+  "fixture_id": "A1-R-B2",
+  "x": 0.385,
+  "z": 0.513,
+  "status": "in_stock",
+  "gtin": "082245000076",
+  "product": "Clearbrook Sparkling Water Lemon 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00106",
+   "p2-00101",
+   "p3-00102"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S2-08",
+  "fixture_id": "A1-R-B2",
+  "x": 0.636,
+  "z": 0.506,
+  "status": "in_stock",
+  "gtin": "082245000014",
+  "product": "Clearbrook Sparkling Water Lime 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00107",
+   "p2-00102",
+   "p2-00103",
+   "p3-00103"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S2-10",
+  "fixture_id": "A1-R-B2",
+  "x": 0.871,
+  "z": 0.52,
+  "status": "in_stock",
+  "gtin": "082245000014",
+  "product": "Clearbrook Sparkling Water Lime 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00108",
+   "p2-00104",
+   "p3-00104"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S2-11",
+  "fixture_id": "A1-R-B2",
+  "x": 1.144,
+  "z": 0.498,
+  "status": "gap",
+  "gtin": "082245000014",
+  "product": "Clearbrook Sparkling Water Lime 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00109",
+   "p2-00105",
+   "p2-00106"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S2-12",
+  "fixture_id": "A1-R-B2",
+  "x": 1.358,
+  "z": 0.511,
+  "status": "changed",
+  "gtin": "082210000018",
+  "product": "Brightwater Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": "082210000025",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00110",
+   "p2-00107",
+   "p3-00105"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S3-13",
+  "fixture_id": "A1-R-B2",
+  "x": 0.118,
+  "z": 0.844,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00111",
+   "p2-00108",
+   "p3-00106"
+  ],
+  "unresolved_text": [
+   "5UMMIT FIZZ Lcmon Lime"
+  ]
+ },
+ {
+  "slot_id": "A1-R-B2/S3-14",
+  "fixture_id": "A1-R-B2",
+  "x": 0.391,
+  "z": 0.838,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00112",
+   "p2-00109",
+   "p3-00107"
+  ],
+  "unresolved_text": [
+   "Lemon Lime 355mL"
+  ]
+ },
+ {
+  "slot_id": "A1-R-B2/S3-15",
+  "fixture_id": "A1-R-B2",
+  "x": 0.629,
+  "z": 0.848,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00113",
+   "p2-00110",
+   "p3-00108"
+  ],
+  "unresolved_text": [
+   "592mL Polar Orange Dt"
+  ]
+ },
+ {
+  "slot_id": "A1-R-B2/S3-16",
+  "fixture_id": "A1-R-B2",
+  "x": 0.892,
+  "z": 0.854,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00114",
+   "p2-00111",
+   "p3-00109"
+  ],
+  "unresolved_text": [
+   "Po1ar DIET 20 FL OZ"
+  ]
+ },
+ {
+  "slot_id": "A1-R-B2/S3-17",
+  "fixture_id": "A1-R-B2",
+  "x": 1.112,
+  "z": 0.827,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00115",
+   "p2-00112",
+   "p3-00110"
+  ],
+  "unresolved_text": [
+   "Summit Cola 592 ML"
+  ]
+ },
+ {
+  "slot_id": "A1-R-B2/S3-18",
+  "fixture_id": "A1-R-B2",
+  "x": 1.376,
+  "z": 0.865,
+  "status": "in_stock",
+  "gtin": "081234000028",
+  "product": "Summit Fizz Cola 20 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00116",
+   "p2-00113",
+   "p3-00111"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S4-19",
+  "fixture_id": "A1-R-B2",
+  "x": 0.131,
+  "z": 1.184,
+  "status": "in_stock",
+  "gtin": "082245000014",
+  "product": "Clearbrook Sparkling Water Lime 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00117",
+   "p2-00114",
+   "p3-00112"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S4-20",
+  "fixture_id": "A1-R-B2",
+  "x": 0.4,
+  "z": 1.189,
+  "status": "in_stock",
+  "gtin": "082245000014",
+  "product": "Clearbrook Sparkling Water Lime 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00118",
+   "p2-00115",
+   "p3-00113"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S4-21",
+  "fixture_id": "A1-R-B2",
+  "x": 0.652,
+  "z": 1.2,
+  "status": "in_stock",
+  "gtin": "082245000021",
+  "product": "Clearbrook Sparkling Water Lime 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00116",
+   "p3-00114",
+   "p3-00115"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S4-22",
+  "fixture_id": "A1-R-B2",
+  "x": 0.872,
+  "z": 1.183,
+  "status": "in_stock",
+  "gtin": "082210000032",
+  "product": "Brightwater Sparkling Water Black Cherry 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00120",
+   "p2-00117",
+   "p3-00116"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S4-23",
+  "fixture_id": "A1-R-B2",
+  "x": 1.137,
+  "z": 1.203,
+  "status": "changed",
+  "gtin": "082210000032",
+  "product": "Brightwater Sparkling Water Black Cherry 12 fl oz",
+  "previous_gtin": "082210000049",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00121",
+   "p2-00118",
+   "p3-00117"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B2/S4-24",
+  "fixture_id": "A1-R-B2",
+  "x": 1.362,
+  "z": 1.205,
+  "status": "in_stock",
+  "gtin": "082210000032",
+  "product": "Brightwater Sparkling Water Black Cherry 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00122",
+   "p2-00119",
+   "p3-00118"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S1-00",
+  "fixture_id": "A1-R-B3",
+  "x": 0.124,
+  "z": 0.145,
+  "status": "changed",
+  "gtin": "081277000252",
+  "product": "Polar Peak Orange 12 fl oz",
+  "previous_gtin": "081277000290",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00123",
+   "p2-00120",
+   "p2-00121",
+   "p3-00119"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S1-01",
+  "fixture_id": "A1-R-B3",
+  "x": 0.403,
+  "z": 0.14,
+  "status": "in_stock",
+  "gtin": "081277000290",
+  "product": "Polar Peak Orange Zero Sugar 2 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00124",
+   "p2-00122",
+   "p3-00120"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S1-02",
+  "fixture_id": "A1-R-B3",
+  "x": 0.617,
+  "z": 0.143,
+  "status": "changed",
+  "gtin": "081234000332",
+  "product": "Summit Fizz Orange Zero Sugar 12 fl oz",
+  "previous_gtin": "081277000016",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00125",
+   "p2-00123",
+   "p3-00121"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S1-03",
+  "fixture_id": "A1-R-B3",
+  "x": 0.823,
+  "z": 0.152,
+  "status": "changed",
+  "gtin": "081234000073",
+  "product": "Summit Fizz Cola Diet 12 fl oz",
+  "previous_gtin": "081277000054",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00126",
+   "p2-00124",
+   "p3-00122"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S1-04",
+  "fixture_id": "A1-R-B3",
+  "x": 1.153,
+  "z": 0.164,
+  "status": "in_stock",
+  "gtin": "081234000400",
+  "product": "Summit Fizz Ginger Ale Zero Sugar 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00127",
+   "p2-00125",
+   "p3-00123"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S1-05",
+  "fixture_id": "A1-R-B3",
+  "x": 1.382,
+  "z": 0.156,
+  "status": "gap",
+  "gtin": "081277000368",
+  "product": "Polar Peak Ginger Ale Zero Sugar 2 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00128",
+   "p1-00129"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S2-06",
+  "fixture_id": "A1-R-B3",
+  "x": 0.149,
+  "z": 0.513,
+  "status": "in_stock",
+  "gtin": "082245000014",
+  "product": "Clearbrook Sparkling Water Lime 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00130",
+   "p2-00126",
+   "p3-00124"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S2-07",
+  "fixture_id": "A1-R-B3",
+  "x": 0.256,
+  "z": 0.348,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p3-00437"
+  ],
+  "unresolved_text": [
+   "$4.99"
+  ]
+ },
+ {
+  "slot_id": "A1-R-B3/S2-08",
+  "fixture_id": "A1-R-B3",
+  "x": 0.37,
+  "z": 0.498,
+  "status": "in_stock",
+  "gtin": "082245000014",
+  "product": "Clearbrook Sparkling Water Lime 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00131",
+   "p1-00132",
+   "p2-00127",
+   "p3-00125"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S2-09",
+  "fixture_id": "A1-R-B3",
+  "x": 0.616,
+  "z": 0.501,
+  "status": "in_stock",
+  "gtin": "082245000069",
+  "product": "Clearbrook Sparkling Water Lemon 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00133",
+   "p2-00128",
+   "p3-00126"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S2-10",
+  "fixture_id": "A1-R-B3",
+  "x": 0.896,
+  "z": 0.489,
+  "status": "gap",
+  "gtin": "082245000076",
+  "product": "Clearbrook Sparkling Water Lemon 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00134",
+   "p2-00129"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S2-11",
+  "fixture_id": "A1-R-B3",
+  "x": 1.121,
+  "z": 0.51,
+  "status": "in_stock",
+  "gtin": "082210000049",
+  "product": "Brightwater Sparkling Water Black Cherry 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00135",
+   "p2-00130",
+   "p3-00127"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S2-12",
+  "fixture_id": "A1-R-B3",
+  "x": 1.373,
+  "z": 0.502,
+  "status": "in_stock",
+  "gtin": "082210000049",
+  "product": "Brightwater Sparkling Water Black Cherry 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00136",
+   "p1-00137",
+   "p2-00131",
+   "p3-00128"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S2-13",
+  "fixture_id": "A1-R-B3",
+  "x": 1.397,
+  "z": 0.343,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p1-00453"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S3-14",
+  "fixture_id": "A1-R-B3",
+  "x": 0.159,
+  "z": 0.859,
+  "status": "in_stock",
+  "gtin": "081277000368",
+  "product": "Polar Peak Ginger Ale Zero Sugar 2 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00138",
+   "p2-00132",
+   "p3-00129"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S3-15",
+  "fixture_id": "A1-R-B3",
+  "x": 0.217,
+  "z": 0.707,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p3-00436"
+  ],
+  "unresolved_text": [
+   "25% OFF"
+  ]
+ },
+ {
+  "slot_id": "A1-R-B3/S3-16",
+  "fixture_id": "A1-R-B3",
+  "x": 0.352,
+  "z": 0.844,
+  "status": "changed",
+  "gtin": "081277000313",
+  "product": "Polar Peak Ginger Ale 12 fl oz",
+  "previous_gtin": "081277000344",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00139",
+   "p2-00133",
+   "p3-00130"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S3-17",
+  "fixture_id": "A1-R-B3",
+  "x": 0.64,
+  "z": 0.842,
+  "status": "in_stock",
+  "gtin": "081277000054",
+  "product": "Polar Peak Cola Diet 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00140",
+   "p2-00134",
+   "p3-00131"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S3-18",
+  "fixture_id": "A1-R-B3",
+  "x": 0.872,
+  "z": 0.84,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00141",
+   "p2-00135",
+   "p3-00132",
+   "p3-00133"
+  ],
+  "unresolved_text": [
+   "355 ML Polar C0LA Diet",
+   "12oz COLA Dt"
+  ]
+ },
+ {
+  "slot_id": "A1-R-B3/S3-19",
+  "fixture_id": "A1-R-B3",
+  "x": 1.094,
+  "z": 0.852,
+  "status": "changed",
+  "gtin": "081277000054",
+  "product": "Polar Peak Cola Diet 12 fl oz",
+  "previous_gtin": "081277000016",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00142",
+   "p2-00136",
+   "p3-00134"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S3-20",
+  "fixture_id": "A1-R-B3",
+  "x": 1.393,
+  "z": 0.829,
+  "status": "in_stock",
+  "gtin": "081277000337",
+  "product": "Polar Peak Ginger Ale 2 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00143",
+   "p1-00144",
+   "p2-00137",
+   "p3-00135"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S4-21",
+  "fixture_id": "A1-R-B3",
+  "x": 0.125,
+  "z": 1.188,
+  "status": "in_stock",
+  "gtin": "082245000038",
+  "product": "Clearbrook Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00145",
+   "p2-00138",
+   "p3-00136"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S4-22",
+  "fixture_id": "A1-R-B3",
+  "x": 0.389,
+  "z": 1.195,
+  "status": "in_stock",
+  "gtin": "082210000018",
+  "product": "Brightwater Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00146",
+   "p2-00139",
+   "p2-00140",
+   "p3-00137",
+   "p3-00138"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S4-23",
+  "fixture_id": "A1-R-B3",
+  "x": 0.62,
+  "z": 1.196,
+  "status": "in_stock",
+  "gtin": "082210000025",
+  "product": "Brightwater Sparkling Water Grapefruit 1 L",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00147",
+   "p2-00141",
+   "p2-00142",
+   "p3-00139"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S4-24",
+  "fixture_id": "A1-R-B3",
+  "x": 0.86,
+  "z": 1.192,
+  "status": "in_stock",
+  "gtin": "082210000018",
+  "product": "Brightwater Sparkling Water Grapefruit 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00148",
+   "p1-00149",
+   "p2-00143",
+   "p3-00140"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S4-25",
+  "fixture_id": "A1-R-B3",
+  "x": 1.131,
+  "z": 1.213,
+  "status": "changed",
+  "gtin": "082210000049",
+  "product": "Brightwater Sparkling Water Black Cherry 1 L",
+  "previous_gtin": "082210000018",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00150",
+   "p2-00145",
+   "p3-00141"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A1-R-B3/S4-26",
+  "fixture_id": "A1-R-B3",
+  "x": 1.374,
+  "z": 1.189,
+  "status": "in_stock",
+  "gtin": "082210000032",
+  "product": "Brightwater Sparkling Water Black Cherry 12 fl oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00151",
+   "p2-00146",
+   "p3-00142"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S1-00",
+  "fixture_id": "A2-L-B1",
+  "x": 0.117,
+  "z": 0.166,
+  "status": "in_stock",
+  "gtin": "083301000092",
+  "product": "Kettle Ridge Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00152",
+   "p3-00143"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S1-01",
+  "fixture_id": "A2-L-B1",
+  "x": 0.36,
+  "z": 0.158,
+  "status": "changed",
+  "gtin": "083301000078",
+  "product": "Kettle Ridge Potato Chips Sea Salt 8 oz",
+  "previous_gtin": "083301000092",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.6,
+  "detections": [
+   "p1-00153",
+   "p2-00148",
+   "p2-00149",
+   "p3-00144",
+   "p3-00145"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S1-02",
+  "fixture_id": "A2-L-B1",
+  "x": 0.607,
+  "z": 0.153,
+  "status": "in_stock",
+  "gtin": "083301000092",
+  "product": "Kettle Ridge Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00154",
+   "p2-00150",
+   "p3-00146"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S1-03",
+  "fixture_id": "A2-L-B1",
+  "x": 0.862,
+  "z": 0.161,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00155",
+   "p2-00151",
+   "p3-00147"
+  ],
+  "unresolved_text": [
+   "Crisp Potato Chips Barbecue"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B1/S1-04",
+  "fixture_id": "A2-L-B1",
+  "x": 1.137,
+  "z": 0.113,
+  "status": "in_stock",
+  "gtin": "083388000145",
+  "product": "Crisp Valley Potato Chips BBQ 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00156",
+   "p2-00152",
+   "p3-00148"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S1-05",
+  "fixture_id": "A2-L-B1",
+  "x": 1.378,
+  "z": 0.158,
+  "status": "in_stock",
+  "gtin": "083388000145",
+  "product": "Crisp Valley Potato Chips BBQ 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00157",
+   "p2-00153",
+   "p3-00149"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S2-06",
+  "fixture_id": "A2-L-B1",
+  "x": 0.157,
+  "z": 0.495,
+  "status": "changed",
+  "gtin": "083301000078",
+  "product": "Kettle Ridge Potato Chips Sea Salt 8 oz",
+  "previous_gtin": "083301000108",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00158",
+   "p2-00154",
+   "p3-00150"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S2-07",
+  "fixture_id": "A2-L-B1",
+  "x": 0.388,
+  "z": 0.512,
+  "status": "gap",
+  "gtin": "083301000092",
+  "product": "Kettle Ridge Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00159",
+   "p2-00155",
+   "p2-00156"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S2-08",
+  "fixture_id": "A2-L-B1",
+  "x": 0.606,
+  "z": 0.515,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00160",
+   "p2-00157",
+   "p3-00151"
+  ],
+  "unresolved_text": [
+   "8 OZ Crisp Potat0 Chips S&V"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B1/S2-09",
+  "fixture_id": "A2-L-B1",
+  "x": 0.879,
+  "z": 0.498,
+  "status": "in_stock",
+  "gtin": "083301000054",
+  "product": "Kettle Ridge Kettle Chips BBQ 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00161",
+   "p2-00158",
+   "p3-00152"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S2-10",
+  "fixture_id": "A2-L-B1",
+  "x": 1.099,
+  "z": 0.506,
+  "status": "in_stock",
+  "gtin": "083301000054",
+  "product": "Kettle Ridge Kettle Chips BBQ 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00162",
+   "p2-00159",
+   "p3-00153"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S2-11",
+  "fixture_id": "A2-L-B1",
+  "x": 1.367,
+  "z": 0.509,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00163",
+   "p2-00160",
+   "p3-00154"
+  ],
+  "unresolved_text": [
+   "Crisp Kettle Chips JALAPEN0"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B1/S3-12",
+  "fixture_id": "A2-L-B1",
+  "x": 0.11,
+  "z": 0.835,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00164",
+   "p2-00161",
+   "p3-00155"
+  ],
+  "unresolved_text": [
+   "Potato Chips S&V (227g)"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B1/S3-13",
+  "fixture_id": "A2-L-B1",
+  "x": 0.408,
+  "z": 0.851,
+  "status": "in_stock",
+  "gtin": "083301000092",
+  "product": "Kettle Ridge Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00165",
+   "p3-00156"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S3-14",
+  "fixture_id": "A2-L-B1",
+  "x": 0.611,
+  "z": 0.851,
+  "status": "in_stock",
+  "gtin": "083301000078",
+  "product": "Kettle Ridge Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00166",
+   "p2-00162",
+   "p3-00157"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S3-15",
+  "fixture_id": "A2-L-B1",
+  "x": 0.873,
+  "z": 0.838,
+  "status": "changed",
+  "gtin": "083301000047",
+  "product": "Kettle Ridge Kettle Chips BBQ 8 oz",
+  "previous_gtin": "083301000023",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00167",
+   "p2-00163",
+   "p3-00158"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S3-16",
+  "fixture_id": "A2-L-B1",
+  "x": 1.132,
+  "z": 0.853,
+  "status": "gap",
+  "gtin": "083301000030",
+  "product": "Kettle Ridge Kettle Chips Jalapeno 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00168",
+   "p2-00164"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S3-17",
+  "fixture_id": "A2-L-B1",
+  "x": 1.369,
+  "z": 0.825,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00169",
+   "p2-00165",
+   "p3-00159"
+  ],
+  "unresolved_text": [
+   "CRISP VALLEY KETTLE CHIPS S&V (227g)"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B1/S4-18",
+  "fixture_id": "A2-L-B1",
+  "x": 0.133,
+  "z": 1.196,
+  "status": "in_stock",
+  "gtin": "083301000078",
+  "product": "Kettle Ridge Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00170",
+   "p2-00166",
+   "p3-00160"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S4-19",
+  "fixture_id": "A2-L-B1",
+  "x": 0.371,
+  "z": 1.189,
+  "status": "in_stock",
+  "gtin": "083301000023",
+  "product": "Kettle Ridge Kettle Chips Jalapeno 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00171",
+   "p2-00167",
+   "p3-00161"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S4-20",
+  "fixture_id": "A2-L-B1",
+  "x": 0.613,
+  "z": 1.199,
+  "status": "in_stock",
+  "gtin": "083301000023",
+  "product": "Kettle Ridge Kettle Chips Jalapeno 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00172",
+   "p2-00168",
+   "p3-00162"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S4-21",
+  "fixture_id": "A2-L-B1",
+  "x": 1.116,
+  "z": 1.205,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00174",
+   "p2-00170",
+   "p3-00164"
+  ],
+  "unresolved_text": [
+   "Kettle S&V"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B1/S4-22",
+  "fixture_id": "A2-L-B1",
+  "x": 1.35,
+  "z": 1.19,
+  "status": "in_stock",
+  "gtin": "083388000046",
+  "product": "Crisp Valley Kettle Chips Jalapeno 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00175",
+   "p2-00171",
+   "p3-00165"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B1/S4-23",
+  "fixture_id": "A2-L-B1",
+  "x": 0.885,
+  "z": 1.233,
+  "status": "changed",
+  "gtin": "083301000108",
+  "product": "Kettle Ridge Potato Chips Salt & Vinegar 13 oz",
+  "previous_gtin": "083301000092",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00173",
+   "p2-00169",
+   "p3-00163"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S1-00",
+  "fixture_id": "A2-L-B2",
+  "x": 0.128,
+  "z": 0.149,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00176",
+   "p2-00172",
+   "p3-00166"
+  ],
+  "unresolved_text": [
+   "Kettle KETTLE CHIP5 JALAPENO"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B2/S1-01",
+  "fixture_id": "A2-L-B2",
+  "x": 0.402,
+  "z": 0.152,
+  "status": "changed",
+  "gtin": "083301000030",
+  "product": "Kettle Ridge Kettle Chips Jalapeno 13 oz",
+  "previous_gtin": "083301000023",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00177",
+   "p2-00173",
+   "p3-00167"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S1-02",
+  "fixture_id": "A2-L-B2",
+  "x": 0.628,
+  "z": 0.147,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00178",
+   "p2-00174",
+   "p2-00175",
+   "p3-00168"
+  ],
+  "unresolved_text": [
+   "KETTLE RIDGE Kettle Chips Barbecue"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B2/S1-03",
+  "fixture_id": "A2-L-B2",
+  "x": 0.895,
+  "z": 0.142,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p1-00179",
+   "p2-00176",
+   "p3-00169"
+  ],
+  "unresolved_text": [
+   "KETTLE RIDGE Kettle Chips Barbecue"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B2/S1-04",
+  "fixture_id": "A2-L-B2",
+  "x": 1.113,
+  "z": 0.167,
+  "status": "changed",
+  "gtin": "083301000047",
+  "product": "Kettle Ridge Kettle Chips BBQ 8 oz",
+  "previous_gtin": "083301000054",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00180",
+   "p2-00177",
+   "p3-00170"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S1-05",
+  "fixture_id": "A2-L-B2",
+  "x": 1.356,
+  "z": 0.137,
+  "status": "in_stock",
+  "gtin": "083301000115",
+  "product": "Kettle Ridge Potato Chips Jalapeno 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00181",
+   "p3-00171"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S2-06",
+  "fixture_id": "A2-L-B2",
+  "x": 0.133,
+  "z": 0.505,
+  "status": "changed",
+  "gtin": "083388000060",
+  "product": "Crisp Valley Tortilla Chips Sea Salt 13 oz",
+  "previous_gtin": "083301000061",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00182",
+   "p2-00178",
+   "p3-00172"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S2-07",
+  "fixture_id": "A2-L-B2",
+  "x": 0.373,
+  "z": 0.483,
+  "status": "in_stock",
+  "gtin": "083301000016",
+  "product": "Kettle Ridge Kettle Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00183",
+   "p2-00179",
+   "p3-00173"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S2-08",
+  "fixture_id": "A2-L-B2",
+  "x": 0.634,
+  "z": 0.504,
+  "status": "in_stock",
+  "gtin": "083301000016",
+  "product": "Kettle Ridge Kettle Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00184",
+   "p2-00180",
+   "p2-00181",
+   "p3-00174"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S2-09",
+  "fixture_id": "A2-L-B2",
+  "x": 0.854,
+  "z": 0.511,
+  "status": "in_stock",
+  "gtin": "083301000016",
+  "product": "Kettle Ridge Kettle Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00185",
+   "p1-00186",
+   "p2-00182",
+   "p2-00183",
+   "p3-00175"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S2-10",
+  "fixture_id": "A2-L-B2",
+  "x": 1.122,
+  "z": 0.524,
+  "status": "in_stock",
+  "gtin": "083301000030",
+  "product": "Kettle Ridge Kettle Chips Jalapeno 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.25,
+  "detections": [
+   "p1-00187",
+   "p1-00188",
+   "p2-00184",
+   "p3-00176"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S2-11",
+  "fixture_id": "A2-L-B2",
+  "x": 1.364,
+  "z": 0.523,
+  "status": "gap",
+  "gtin": "083301000122",
+  "product": "Kettle Ridge Potato Chips Jalapeno 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00189",
+   "p2-00185"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S3-12",
+  "fixture_id": "A2-L-B2",
+  "x": 0.144,
+  "z": 0.855,
+  "status": "changed",
+  "gtin": "083301000023",
+  "product": "Kettle Ridge Kettle Chips Jalapeno 8 oz",
+  "previous_gtin": "083301000016",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00190",
+   "p2-00186",
+   "p3-00177"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S3-13",
+  "fixture_id": "A2-L-B2",
+  "x": 0.392,
+  "z": 0.851,
+  "status": "changed",
+  "gtin": "083388000077",
+  "product": "Crisp Valley Tortilla Chips Salt & Vinegar 8 oz",
+  "previous_gtin": "083301000061",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00191",
+   "p2-00187",
+   "p3-00178",
+   "p3-00179"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S3-14",
+  "fixture_id": "A2-L-B2",
+  "x": 0.617,
+  "z": 0.842,
+  "status": "in_stock",
+  "gtin": "083388000039",
+  "product": "Crisp Valley Kettle Chips Jalapeno 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.8,
+  "detections": [
+   "p1-00192",
+   "p1-00193",
+   "p2-00188",
+   "p2-00189",
+   "p3-00180"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S3-15",
+  "fixture_id": "A2-L-B2",
+  "x": 0.898,
+  "z": 0.872,
+  "status": "changed",
+  "gtin": "083388000114",
+  "product": "Crisp Valley Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": "083301000078",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00194",
+   "p2-00190",
+   "p3-00181"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S3-16",
+  "fixture_id": "A2-L-B2",
+  "x": 1.118,
+  "z": 0.848,
+  "status": "changed",
+  "gtin": "083388000107",
+  "product": "Crisp Valley Potato Chips Sea Salt 8 oz",
+  "previous_gtin": "083388000114",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00195",
+   "p2-00191",
+   "p3-00182"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S3-17",
+  "fixture_id": "A2-L-B2",
+  "x": 1.344,
+  "z": 0.856,
+  "status": "in_stock",
+  "gtin": "083301000115",
+  "product": "Kettle Ridge Potato Chips Jalapeno 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00192",
+   "p3-00183"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S4-18",
+  "fixture_id": "A2-L-B2",
+  "x": 0.143,
+  "z": 1.21,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00196",
+   "p2-00193",
+   "p3-00184"
+  ],
+  "unresolved_text": [
+   "Kettle Kettle Chips Jalap. 13 OZ"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B2/S4-19",
+  "fixture_id": "A2-L-B2",
+  "x": 0.354,
+  "z": 1.208,
+  "status": "changed",
+  "gtin": "083388000022",
+  "product": "Crisp Valley Kettle Chips Salt & Vinegar 13 oz",
+  "previous_gtin": "083388000015",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00197",
+   "p2-00194",
+   "p3-00185"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S4-20",
+  "fixture_id": "A2-L-B2",
+  "x": 0.616,
+  "z": 1.198,
+  "status": "in_stock",
+  "gtin": "083388000015",
+  "product": "Crisp Valley Kettle Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00198",
+   "p2-00195",
+   "p3-00186"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S4-21",
+  "fixture_id": "A2-L-B2",
+  "x": 0.76,
+  "z": 1.069,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00444"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S4-22",
+  "fixture_id": "A2-L-B2",
+  "x": 0.866,
+  "z": 1.184,
+  "status": "in_stock",
+  "gtin": "083388000114",
+  "product": "Crisp Valley Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00199",
+   "p2-00196",
+   "p3-00187"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S4-23",
+  "fixture_id": "A2-L-B2",
+  "x": 0.971,
+  "z": 1.058,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00445"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S4-24",
+  "fixture_id": "A2-L-B2",
+  "x": 1.128,
+  "z": 1.21,
+  "status": "in_stock",
+  "gtin": "083388000114",
+  "product": "Crisp Valley Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00200",
+   "p2-00197",
+   "p2-00198",
+   "p3-00188"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B2/S4-25",
+  "fixture_id": "A2-L-B2",
+  "x": 1.364,
+  "z": 1.197,
+  "status": "in_stock",
+  "gtin": "083388000114",
+  "product": "Crisp Valley Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00201",
+   "p2-00199",
+   "p3-00189"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S1-00",
+  "fixture_id": "A2-L-B3",
+  "x": 0.147,
+  "z": 0.14,
+  "status": "changed",
+  "gtin": "083388000121",
+  "product": "Crisp Valley Potato Chips Jalapeno 8 oz",
+  "previous_gtin": "083388000138",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00202",
+   "p2-00200",
+   "p3-00190"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S1-01",
+  "fixture_id": "A2-L-B3",
+  "x": 0.383,
+  "z": 0.141,
+  "status": "changed",
+  "gtin": "083388000138",
+  "product": "Crisp Valley Potato Chips Jalapeno 13 oz",
+  "previous_gtin": "083388000121",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00203",
+   "p2-00201",
+   "p3-00191"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S1-02",
+  "fixture_id": "A2-L-B3",
+  "x": 0.66,
+  "z": 0.155,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00204",
+   "p2-00202",
+   "p3-00192"
+  ],
+  "unresolved_text": [
+   "Kettle Potato Chips Jalap. 368 g"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B3/S1-03",
+  "fixture_id": "A2-L-B3",
+  "x": 0.868,
+  "z": 0.154,
+  "status": "in_stock",
+  "gtin": "083388000091",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00205",
+   "p2-00203",
+   "p3-00193"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S1-04",
+  "fixture_id": "A2-L-B3",
+  "x": 0.89,
+  "z": 0.0,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p1-00455"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S1-05",
+  "fixture_id": "A2-L-B3",
+  "x": 1.133,
+  "z": 0.141,
+  "status": "in_stock",
+  "gtin": "083388000091",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00206",
+   "p2-00204",
+   "p3-00194"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S1-06",
+  "fixture_id": "A2-L-B3",
+  "x": 1.378,
+  "z": 0.146,
+  "status": "changed",
+  "gtin": "083388000084",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": "083388000091",
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00207",
+   "p3-00195"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S2-07",
+  "fixture_id": "A2-L-B3",
+  "x": 0.141,
+  "z": 0.487,
+  "status": "in_stock",
+  "gtin": "083301000030",
+  "product": "Kettle Ridge Kettle Chips Jalapeno 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00208",
+   "p2-00206",
+   "p3-00196"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S2-08",
+  "fixture_id": "A2-L-B3",
+  "x": 0.363,
+  "z": 0.502,
+  "status": "changed",
+  "gtin": "083301000023",
+  "product": "Kettle Ridge Kettle Chips Jalapeno 8 oz",
+  "previous_gtin": "083301000030",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00209",
+   "p2-00207",
+   "p3-00197"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S2-09",
+  "fixture_id": "A2-L-B3",
+  "x": 0.609,
+  "z": 0.497,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00210",
+   "p2-00208",
+   "p3-00198"
+  ],
+  "unresolved_text": [
+   "368 g Kettle Chips Jalap."
+  ]
+ },
+ {
+  "slot_id": "A2-L-B3/S2-10",
+  "fixture_id": "A2-L-B3",
+  "x": 0.868,
+  "z": 0.513,
+  "status": "changed",
+  "gtin": "083301000085",
+  "product": "Kettle Ridge Potato Chips Sea Salt 13 oz",
+  "previous_gtin": "083388000138",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00211",
+   "p2-00209",
+   "p3-00199"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S2-11",
+  "fixture_id": "A2-L-B3",
+  "x": 1.111,
+  "z": 0.495,
+  "status": "in_stock",
+  "gtin": "083388000152",
+  "product": "Crisp Valley Potato Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00210",
+   "p3-00200"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S2-12",
+  "fixture_id": "A2-L-B3",
+  "x": 1.348,
+  "z": 0.509,
+  "status": "in_stock",
+  "gtin": "083388000152",
+  "product": "Crisp Valley Potato Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00212",
+   "p2-00211",
+   "p3-00201"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S3-13",
+  "fixture_id": "A2-L-B3",
+  "x": 0.137,
+  "z": 0.861,
+  "status": "in_stock",
+  "gtin": "083388000060",
+  "product": "Crisp Valley Tortilla Chips Sea Salt 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00213",
+   "p3-00202"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S3-14",
+  "fixture_id": "A2-L-B3",
+  "x": 0.292,
+  "z": 0.694,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p3-00438"
+  ],
+  "unresolved_text": [
+   "SALE 2/$5"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B3/S3-15",
+  "fixture_id": "A2-L-B3",
+  "x": 0.375,
+  "z": 0.844,
+  "status": "in_stock",
+  "gtin": "083388000077",
+  "product": "Crisp Valley Tortilla Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00214",
+   "p2-00213",
+   "p2-00214",
+   "p3-00203"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S3-16",
+  "fixture_id": "A2-L-B3",
+  "x": 0.648,
+  "z": 0.844,
+  "status": "in_stock",
+  "gtin": "083388000077",
+  "product": "Crisp Valley Tortilla Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00215",
+   "p2-00215",
+   "p3-00204"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S3-17",
+  "fixture_id": "A2-L-B3",
+  "x": 0.876,
+  "z": 0.871,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00216",
+   "p2-00216",
+   "p2-00217",
+   "p3-00205"
+  ],
+  "unresolved_text": [
+   "CRISP VALLEY TORTILLA CHIPS S&V 227 g"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B3/S3-18",
+  "fixture_id": "A2-L-B3",
+  "x": 1.106,
+  "z": 0.847,
+  "status": "in_stock",
+  "gtin": "083301000139",
+  "product": "Kettle Ridge Potato Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00217",
+   "p2-00218",
+   "p2-00219",
+   "p3-00206"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S3-19",
+  "fixture_id": "A2-L-B3",
+  "x": 1.391,
+  "z": 0.858,
+  "status": "changed",
+  "gtin": "083388000077",
+  "product": "Crisp Valley Tortilla Chips Salt & Vinegar 8 oz",
+  "previous_gtin": "083388000053",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00218",
+   "p2-00220",
+   "p3-00207"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S4-20",
+  "fixture_id": "A2-L-B3",
+  "x": 0.122,
+  "z": 1.2,
+  "status": "changed",
+  "gtin": "083301000030",
+  "product": "Kettle Ridge Kettle Chips Jalapeno 13 oz",
+  "previous_gtin": "083301000023",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00219",
+   "p2-00221",
+   "p3-00208"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S4-21",
+  "fixture_id": "A2-L-B3",
+  "x": 0.364,
+  "z": 1.213,
+  "status": "in_stock",
+  "gtin": "083388000084",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00220",
+   "p2-00222",
+   "p3-00209"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S4-22",
+  "fixture_id": "A2-L-B3",
+  "x": 0.597,
+  "z": 1.199,
+  "status": "in_stock",
+  "gtin": "083301000092",
+  "product": "Kettle Ridge Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00221",
+   "p3-00210"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-L-B3/S4-23",
+  "fixture_id": "A2-L-B3",
+  "x": 0.875,
+  "z": 1.188,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00222",
+   "p1-00223",
+   "p2-00223",
+   "p3-00211"
+  ],
+  "unresolved_text": [
+   "Kettle POTATO CHIPS S&V (227g)"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B3/S4-24",
+  "fixture_id": "A2-L-B3",
+  "x": 1.106,
+  "z": 1.212,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00224",
+   "p2-00224",
+   "p3-00212"
+  ],
+  "unresolved_text": [
+   "227 g KETTLE CHIPS"
+  ]
+ },
+ {
+  "slot_id": "A2-L-B3/S4-25",
+  "fixture_id": "A2-L-B3",
+  "x": 1.372,
+  "z": 1.191,
+  "status": "changed",
+  "gtin": "083388000107",
+  "product": "Crisp Valley Potato Chips Sea Salt 8 oz",
+  "previous_gtin": "083301000092",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00225",
+   "p2-00225",
+   "p3-00213",
+   "p3-00214"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S1-00",
+  "fixture_id": "A2-R-B1",
+  "x": 0.132,
+  "z": 0.148,
+  "status": "in_stock",
+  "gtin": "083301000139",
+  "product": "Kettle Ridge Potato Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00226",
+   "p2-00226",
+   "p3-00215"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S1-01",
+  "fixture_id": "A2-R-B1",
+  "x": 0.384,
+  "z": 0.139,
+  "status": "in_stock",
+  "gtin": "083301000139",
+  "product": "Kettle Ridge Potato Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00227",
+   "p2-00227",
+   "p2-00228",
+   "p3-00216"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S1-02",
+  "fixture_id": "A2-R-B1",
+  "x": 0.61,
+  "z": 0.151,
+  "status": "changed",
+  "gtin": "083301000078",
+  "product": "Kettle Ridge Potato Chips Sea Salt 8 oz",
+  "previous_gtin": "083301000139",
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00228",
+   "p3-00217",
+   "p3-00218"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S1-03",
+  "fixture_id": "A2-R-B1",
+  "x": 0.901,
+  "z": 0.136,
+  "status": "changed",
+  "gtin": "083388000022",
+  "product": "Crisp Valley Kettle Chips Salt & Vinegar 13 oz",
+  "previous_gtin": "083301000092",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00229",
+   "p2-00229",
+   "p3-00219"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S1-04",
+  "fixture_id": "A2-R-B1",
+  "x": 1.11,
+  "z": 0.158,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00230",
+   "p3-00220"
+  ],
+  "unresolved_text": [
+   "Crisp Kettlc Chips Salt Vinegar 13oz"
+  ]
+ },
+ {
+  "slot_id": "A2-R-B1/S1-05",
+  "fixture_id": "A2-R-B1",
+  "x": 1.396,
+  "z": 0.029,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00446"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S1-06",
+  "fixture_id": "A2-R-B1",
+  "x": 1.396,
+  "z": 0.136,
+  "status": "in_stock",
+  "gtin": "083388000015",
+  "product": "Crisp Valley Kettle Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p3-00221"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S2-07",
+  "fixture_id": "A2-R-B1",
+  "x": 0.121,
+  "z": 0.483,
+  "status": "changed",
+  "gtin": "083388000015",
+  "product": "Crisp Valley Kettle Chips Salt & Vinegar 8 oz",
+  "previous_gtin": "083388000145",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00231",
+   "p2-00230",
+   "p3-00222"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S2-08",
+  "fixture_id": "A2-R-B1",
+  "x": 0.238,
+  "z": 0.364,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p1-00456"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S2-09",
+  "fixture_id": "A2-R-B1",
+  "x": 0.355,
+  "z": 0.476,
+  "status": "in_stock",
+  "gtin": "083388000046",
+  "product": "Crisp Valley Kettle Chips Jalapeno 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00232",
+   "p3-00223"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S2-10",
+  "fixture_id": "A2-R-B1",
+  "x": 0.601,
+  "z": 0.491,
+  "status": "in_stock",
+  "gtin": "083301000108",
+  "product": "Kettle Ridge Potato Chips Salt & Vinegar 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00233",
+   "p2-00231",
+   "p2-00232",
+   "p3-00224"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S2-11",
+  "fixture_id": "A2-R-B1",
+  "x": 0.869,
+  "z": 0.497,
+  "status": "in_stock",
+  "gtin": "083388000039",
+  "product": "Crisp Valley Kettle Chips Jalapeno 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00234",
+   "p2-00233",
+   "p3-00225"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S2-12",
+  "fixture_id": "A2-R-B1",
+  "x": 1.108,
+  "z": 0.507,
+  "status": "changed",
+  "gtin": "083301000016",
+  "product": "Kettle Ridge Kettle Chips Sea Salt 8 oz",
+  "previous_gtin": "083301000078",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00235",
+   "p2-00234",
+   "p3-00226"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S2-13",
+  "fixture_id": "A2-R-B1",
+  "x": 1.379,
+  "z": 0.505,
+  "status": "gap",
+  "gtin": "083301000023",
+  "product": "Kettle Ridge Kettle Chips Jalapeno 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00236",
+   "p2-00235"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S3-14",
+  "fixture_id": "A2-R-B1",
+  "x": 0.141,
+  "z": 0.85,
+  "status": "in_stock",
+  "gtin": "083301000092",
+  "product": "Kettle Ridge Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00237",
+   "p2-00236",
+   "p3-00227"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S3-15",
+  "fixture_id": "A2-R-B1",
+  "x": 0.378,
+  "z": 0.85,
+  "status": "changed",
+  "gtin": "083301000122",
+  "product": "Kettle Ridge Potato Chips Jalapeno 13 oz",
+  "previous_gtin": "083301000085",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00238",
+   "p2-00237",
+   "p2-00238",
+   "p3-00228",
+   "p3-00229"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S3-16",
+  "fixture_id": "A2-R-B1",
+  "x": 0.629,
+  "z": 0.86,
+  "status": "changed",
+  "gtin": "083301000030",
+  "product": "Kettle Ridge Kettle Chips Jalapeno 13 oz",
+  "previous_gtin": "083301000115",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00239",
+   "p2-00239",
+   "p3-00230"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S3-17",
+  "fixture_id": "A2-R-B1",
+  "x": 0.89,
+  "z": 0.829,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00240",
+   "p2-00240",
+   "p3-00231"
+  ],
+  "unresolved_text": [
+   "13 OZ Kettle KETTLE CHIPS Barbecue"
+  ]
+ },
+ {
+  "slot_id": "A2-R-B1/S3-18",
+  "fixture_id": "A2-R-B1",
+  "x": 1.102,
+  "z": 0.856,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00241",
+   "p3-00232"
+  ],
+  "unresolved_text": [
+   "13oz KETTLE RIDGE Kettle Chips Barbecue"
+  ]
+ },
+ {
+  "slot_id": "A2-R-B1/S3-19",
+  "fixture_id": "A2-R-B1",
+  "x": 1.205,
+  "z": 0.708,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00447"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S3-20",
+  "fixture_id": "A2-R-B1",
+  "x": 1.398,
+  "z": 0.859,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00242",
+   "p2-00241",
+   "p3-00233"
+  ],
+  "unresolved_text": [
+   "KETTLE CH1PS JALAPENO"
+  ]
+ },
+ {
+  "slot_id": "A2-R-B1/S4-21",
+  "fixture_id": "A2-R-B1",
+  "x": 0.114,
+  "z": 1.213,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00243",
+   "p2-00242",
+   "p2-00243",
+   "p3-00234"
+  ],
+  "unresolved_text": [
+   "(227g) Crisp Valley Potato Chips Jalap."
+  ]
+ },
+ {
+  "slot_id": "A2-R-B1/S4-22",
+  "fixture_id": "A2-R-B1",
+  "x": 0.38,
+  "z": 1.203,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00244",
+   "p2-00244",
+   "p3-00235"
+  ],
+  "unresolved_text": [
+   "(227g) CRISP VALLEY POTATO CHIPS Jalap."
+  ]
+ },
+ {
+  "slot_id": "A2-R-B1/S4-23",
+  "fixture_id": "A2-R-B1",
+  "x": 0.616,
+  "z": 1.199,
+  "status": "in_stock",
+  "gtin": "083388000084",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00245",
+   "p2-00245",
+   "p3-00236",
+   "p3-00237"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S4-24",
+  "fixture_id": "A2-R-B1",
+  "x": 0.871,
+  "z": 1.185,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00246",
+   "p1-00247",
+   "p2-00246",
+   "p3-00238"
+  ],
+  "unresolved_text": [
+   "(368g) Tortilla Chips 5OUR CREAM & ONION"
+  ]
+ },
+ {
+  "slot_id": "A2-R-B1/S4-25",
+  "fixture_id": "A2-R-B1",
+  "x": 1.141,
+  "z": 1.204,
+  "status": "changed",
+  "gtin": "083301000115",
+  "product": "Kettle Ridge Potato Chips Jalapeno 8 oz",
+  "previous_gtin": "083388000091",
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00248",
+   "p3-00239"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B1/S4-26",
+  "fixture_id": "A2-R-B1",
+  "x": 1.374,
+  "z": 1.177,
+  "status": "in_stock",
+  "gtin": "083388000039",
+  "product": "Crisp Valley Kettle Chips Jalapeno 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00249",
+   "p2-00247",
+   "p3-00240"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S1-00",
+  "fixture_id": "A2-R-B2",
+  "x": 0.124,
+  "z": 0.139,
+  "status": "changed",
+  "gtin": "083301000115",
+  "product": "Kettle Ridge Potato Chips Jalapeno 8 oz",
+  "previous_gtin": "083301000078",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00250",
+   "p2-00248",
+   "p3-00241"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S1-01",
+  "fixture_id": "A2-R-B2",
+  "x": 0.368,
+  "z": 0.126,
+  "status": "in_stock",
+  "gtin": "083301000115",
+  "product": "Kettle Ridge Potato Chips Jalapeno 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00251",
+   "p2-00249",
+   "p3-00242"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S1-02",
+  "fixture_id": "A2-R-B2",
+  "x": 0.633,
+  "z": 0.163,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p2-00250",
+   "p3-00243"
+  ],
+  "unresolved_text": [
+   "Potato Chips Jalap. 8 OZ"
+  ]
+ },
+ {
+  "slot_id": "A2-R-B2/S1-03",
+  "fixture_id": "A2-R-B2",
+  "x": 0.888,
+  "z": 0.156,
+  "status": "in_stock",
+  "gtin": "083388000091",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00252",
+   "p2-00251",
+   "p3-00244"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S1-04",
+  "fixture_id": "A2-R-B2",
+  "x": 1.113,
+  "z": 0.136,
+  "status": "changed",
+  "gtin": "083388000091",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 13 oz",
+  "previous_gtin": "083388000084",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00253",
+   "p2-00252",
+   "p3-00245"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S1-05",
+  "fixture_id": "A2-R-B2",
+  "x": 1.388,
+  "z": 0.149,
+  "status": "in_stock",
+  "gtin": "083301000078",
+  "product": "Kettle Ridge Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00254",
+   "p2-00253",
+   "p3-00246"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S2-06",
+  "fixture_id": "A2-R-B2",
+  "x": 0.116,
+  "z": 0.503,
+  "status": "gap",
+  "gtin": "083388000107",
+  "product": "Crisp Valley Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00255",
+   "p1-00256",
+   "p2-00254"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S2-07",
+  "fixture_id": "A2-R-B2",
+  "x": 0.368,
+  "z": 0.504,
+  "status": "changed",
+  "gtin": "083388000138",
+  "product": "Crisp Valley Potato Chips Jalapeno 13 oz",
+  "previous_gtin": "083301000115",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00257",
+   "p2-00255",
+   "p3-00247"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S2-08",
+  "fixture_id": "A2-R-B2",
+  "x": 0.618,
+  "z": 0.496,
+  "status": "in_stock",
+  "gtin": "083301000078",
+  "product": "Kettle Ridge Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00258",
+   "p2-00256",
+   "p3-00248",
+   "p3-00249"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S2-09",
+  "fixture_id": "A2-R-B2",
+  "x": 0.889,
+  "z": 0.49,
+  "status": "changed",
+  "gtin": "083301000047",
+  "product": "Kettle Ridge Kettle Chips BBQ 8 oz",
+  "previous_gtin": "083301000078",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00259",
+   "p2-00257",
+   "p3-00250"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S2-10",
+  "fixture_id": "A2-R-B2",
+  "x": 1.113,
+  "z": 0.486,
+  "status": "in_stock",
+  "gtin": "083301000078",
+  "product": "Kettle Ridge Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00260",
+   "p2-00258",
+   "p3-00251"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S2-11",
+  "fixture_id": "A2-R-B2",
+  "x": 1.144,
+  "z": 0.37,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00449"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S2-12",
+  "fixture_id": "A2-R-B2",
+  "x": 1.344,
+  "z": 0.516,
+  "status": "in_stock",
+  "gtin": "083301000085",
+  "product": "Kettle Ridge Potato Chips Sea Salt 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00261",
+   "p2-00259",
+   "p3-00252"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S3-13",
+  "fixture_id": "A2-R-B2",
+  "x": 0.092,
+  "z": 0.703,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00448"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S3-14",
+  "fixture_id": "A2-R-B2",
+  "x": 0.138,
+  "z": 0.836,
+  "status": "in_stock",
+  "gtin": "083301000078",
+  "product": "Kettle Ridge Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00262",
+   "p2-00260",
+   "p3-00253"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S3-15",
+  "fixture_id": "A2-R-B2",
+  "x": 0.373,
+  "z": 0.831,
+  "status": "changed",
+  "gtin": "083301000078",
+  "product": "Kettle Ridge Potato Chips Sea Salt 8 oz",
+  "previous_gtin": "083301000016",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00263",
+   "p2-00261",
+   "p3-00254"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S3-16",
+  "fixture_id": "A2-R-B2",
+  "x": 0.628,
+  "z": 0.838,
+  "status": "in_stock",
+  "gtin": "083301000054",
+  "product": "Kettle Ridge Kettle Chips BBQ 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00264",
+   "p2-00262",
+   "p3-00255",
+   "p3-00256"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S3-17",
+  "fixture_id": "A2-R-B2",
+  "x": 0.859,
+  "z": 0.861,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00265",
+   "p3-00257"
+  ],
+  "unresolved_text": [
+   "(368g) Kettle"
+  ]
+ },
+ {
+  "slot_id": "A2-R-B2/S3-18",
+  "fixture_id": "A2-R-B2",
+  "x": 1.055,
+  "z": 0.705,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p1-00457"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S3-19",
+  "fixture_id": "A2-R-B2",
+  "x": 1.112,
+  "z": 0.848,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00264",
+   "p3-00258"
+  ],
+  "unresolved_text": [
+   "368 g Kettle BBQ"
+  ]
+ },
+ {
+  "slot_id": "A2-R-B2/S3-20",
+  "fixture_id": "A2-R-B2",
+  "x": 1.361,
+  "z": 0.87,
+  "status": "in_stock",
+  "gtin": "083301000115",
+  "product": "Kettle Ridge Potato Chips Jalapeno 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00267",
+   "p2-00265",
+   "p3-00259"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S4-21",
+  "fixture_id": "A2-R-B2",
+  "x": 0.131,
+  "z": 1.209,
+  "status": "in_stock",
+  "gtin": "083388000107",
+  "product": "Crisp Valley Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00268",
+   "p2-00266",
+   "p3-00260"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S4-22",
+  "fixture_id": "A2-R-B2",
+  "x": 0.373,
+  "z": 1.216,
+  "status": "in_stock",
+  "gtin": "083301000092",
+  "product": "Kettle Ridge Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00269",
+   "p2-00267",
+   "p3-00261"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S4-23",
+  "fixture_id": "A2-R-B2",
+  "x": 0.62,
+  "z": 1.217,
+  "status": "in_stock",
+  "gtin": "083301000092",
+  "product": "Kettle Ridge Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00270",
+   "p2-00268",
+   "p2-00269",
+   "p3-00262"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S4-24",
+  "fixture_id": "A2-R-B2",
+  "x": 0.902,
+  "z": 1.209,
+  "status": "gap",
+  "gtin": "083301000047",
+  "product": "Kettle Ridge Kettle Chips BBQ 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00271"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B2/S4-25",
+  "fixture_id": "A2-R-B2",
+  "x": 1.126,
+  "z": 1.196,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.25,
+  "detections": [
+   "p1-00272",
+   "p2-00270",
+   "p3-00263",
+   "p3-00264"
+  ],
+  "unresolved_text": [
+   "227 g Kettle KETTLE CHIPS BBQ",
+   "227 g Kettle Barbecue"
+  ]
+ },
+ {
+  "slot_id": "A2-R-B2/S4-26",
+  "fixture_id": "A2-R-B2",
+  "x": 1.393,
+  "z": 1.204,
+  "status": "in_stock",
+  "gtin": "083301000047",
+  "product": "Kettle Ridge Kettle Chips BBQ 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00273",
+   "p2-00271",
+   "p3-00265"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S1-00",
+  "fixture_id": "A2-R-B3",
+  "x": 0.137,
+  "z": 0.131,
+  "status": "in_stock",
+  "gtin": "083388000039",
+  "product": "Crisp Valley Kettle Chips Jalapeno 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00274",
+   "p2-00272",
+   "p3-00266"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S1-01",
+  "fixture_id": "A2-R-B3",
+  "x": 0.393,
+  "z": 0.152,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00275",
+   "p2-00273",
+   "p3-00267"
+  ],
+  "unresolved_text": [
+   "CRISP VALLEY KETTLE CHIPS Jalap. (227g)"
+  ]
+ },
+ {
+  "slot_id": "A2-R-B3/S1-02",
+  "fixture_id": "A2-R-B3",
+  "x": 0.614,
+  "z": 0.144,
+  "status": "in_stock",
+  "gtin": "083301000078",
+  "product": "Kettle Ridge Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00276",
+   "p2-00274",
+   "p2-00275",
+   "p3-00268"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S1-03",
+  "fixture_id": "A2-R-B3",
+  "x": 0.884,
+  "z": 0.146,
+  "status": "in_stock",
+  "gtin": "083301000078",
+  "product": "Kettle Ridge Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00277",
+   "p2-00276",
+   "p3-00269",
+   "p3-00270"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S1-04",
+  "fixture_id": "A2-R-B3",
+  "x": 1.118,
+  "z": 0.16,
+  "status": "changed",
+  "gtin": "083301000016",
+  "product": "Kettle Ridge Kettle Chips Sea Salt 8 oz",
+  "previous_gtin": "083301000078",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00278",
+   "p2-00277",
+   "p3-00271"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S1-05",
+  "fixture_id": "A2-R-B3",
+  "x": 1.379,
+  "z": 0.154,
+  "status": "in_stock",
+  "gtin": "083301000139",
+  "product": "Kettle Ridge Potato Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00279",
+   "p2-00278",
+   "p3-00272"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S2-06",
+  "fixture_id": "A2-R-B3",
+  "x": 0.106,
+  "z": 0.482,
+  "status": "changed",
+  "gtin": "083388000084",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": "083388000091",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00280",
+   "p2-00279",
+   "p3-00273"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S2-07",
+  "fixture_id": "A2-R-B3",
+  "x": 0.364,
+  "z": 0.495,
+  "status": "changed",
+  "gtin": "083388000091",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 13 oz",
+  "previous_gtin": "083388000084",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00281",
+   "p2-00280",
+   "p3-00274"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S2-08",
+  "fixture_id": "A2-R-B3",
+  "x": 0.622,
+  "z": 0.492,
+  "status": "in_stock",
+  "gtin": "083388000107",
+  "product": "Crisp Valley Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00281",
+   "p3-00275"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S2-09",
+  "fixture_id": "A2-R-B3",
+  "x": 0.894,
+  "z": 0.496,
+  "status": "in_stock",
+  "gtin": "083388000107",
+  "product": "Crisp Valley Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00282",
+   "p3-00276"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S2-10",
+  "fixture_id": "A2-R-B3",
+  "x": 1.131,
+  "z": 0.505,
+  "status": "in_stock",
+  "gtin": "083388000107",
+  "product": "Crisp Valley Potato Chips Sea Salt 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00282",
+   "p2-00283",
+   "p2-00284",
+   "p3-00277"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S2-11",
+  "fixture_id": "A2-R-B3",
+  "x": 1.3,
+  "z": 0.349,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00450"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S2-12",
+  "fixture_id": "A2-R-B3",
+  "x": 1.371,
+  "z": 0.506,
+  "status": "in_stock",
+  "gtin": "083301000115",
+  "product": "Kettle Ridge Potato Chips Jalapeno 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00283",
+   "p2-00285",
+   "p2-00286",
+   "p3-00278"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S3-13",
+  "fixture_id": "A2-R-B3",
+  "x": 0.123,
+  "z": 0.843,
+  "status": "in_stock",
+  "gtin": "083388000145",
+  "product": "Crisp Valley Potato Chips BBQ 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00284",
+   "p2-00287",
+   "p3-00279"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S3-14",
+  "fixture_id": "A2-R-B3",
+  "x": 0.382,
+  "z": 0.846,
+  "status": "in_stock",
+  "gtin": "083301000092",
+  "product": "Kettle Ridge Potato Chips Salt & Vinegar 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00285",
+   "p2-00288",
+   "p3-00280"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S3-15",
+  "fixture_id": "A2-R-B3",
+  "x": 0.637,
+  "z": 0.838,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00286",
+   "p2-00289",
+   "p3-00281"
+  ],
+  "unresolved_text": [
+   "SOUR CREAM & ONION 368 g"
+  ]
+ },
+ {
+  "slot_id": "A2-R-B3/S3-16",
+  "fixture_id": "A2-R-B3",
+  "x": 0.885,
+  "z": 0.842,
+  "status": "in_stock",
+  "gtin": "083388000091",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 13 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00287",
+   "p2-00290",
+   "p3-00282"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S3-17",
+  "fixture_id": "A2-R-B3",
+  "x": 1.129,
+  "z": 0.858,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00288",
+   "p2-00291",
+   "p3-00283"
+  ],
+  "unresolved_text": [
+   "Fieldstone KETTLE CHIPS Hot Honcy"
+  ]
+ },
+ {
+  "slot_id": "A2-R-B3/S3-18",
+  "fixture_id": "A2-R-B3",
+  "x": 1.402,
+  "z": 0.845,
+  "status": "changed",
+  "gtin": "083388000060",
+  "product": "Crisp Valley Tortilla Chips Sea Salt 13 oz",
+  "previous_gtin": "083388000053",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00289",
+   "p2-00292",
+   "p3-00284"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S4-19",
+  "fixture_id": "A2-R-B3",
+  "x": 0.165,
+  "z": 1.207,
+  "status": "changed",
+  "gtin": "083388000084",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": "083301000016",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00290",
+   "p2-00293",
+   "p3-00285",
+   "p3-00286"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S4-20",
+  "fixture_id": "A2-R-B3",
+  "x": 0.389,
+  "z": 1.201,
+  "status": "in_stock",
+  "gtin": "083388000084",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00291",
+   "p2-00294",
+   "p3-00287"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S4-21",
+  "fixture_id": "A2-R-B3",
+  "x": 0.634,
+  "z": 1.201,
+  "status": "in_stock",
+  "gtin": "083388000084",
+  "product": "Crisp Valley Tortilla Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00292",
+   "p2-00295",
+   "p3-00288"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S4-22",
+  "fixture_id": "A2-R-B3",
+  "x": 1.1,
+  "z": 1.202,
+  "status": "changed",
+  "gtin": "083301000139",
+  "product": "Kettle Ridge Potato Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": "083301000078",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00295",
+   "p2-00297",
+   "p3-00290"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S4-23",
+  "fixture_id": "A2-R-B3",
+  "x": 1.394,
+  "z": 1.195,
+  "status": "in_stock",
+  "gtin": "083301000139",
+  "product": "Kettle Ridge Potato Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00296",
+   "p2-00298",
+   "p3-00291"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A2-R-B3/S4-24",
+  "fixture_id": "A2-R-B3",
+  "x": 0.904,
+  "z": 1.226,
+  "status": "in_stock",
+  "gtin": "083301000139",
+  "product": "Kettle Ridge Potato Chips Sour Cream & Onion 8 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00293",
+   "p1-00294",
+   "p2-00296",
+   "p3-00289"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S1-00",
+  "fixture_id": "A3-L-B1",
+  "x": 0.115,
+  "z": 0.133,
+  "status": "changed",
+  "gtin": "084412000094",
+  "product": "Harvest Lane Honey Crunch 18 oz",
+  "previous_gtin": "084412000131",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00297",
+   "p2-00299",
+   "p3-00292"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S1-01",
+  "fixture_id": "A3-L-B1",
+  "x": 0.386,
+  "z": 0.165,
+  "status": "gap",
+  "gtin": "084490000023",
+  "product": "Morning Field Oat Clusters 18 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00298"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S1-02",
+  "fixture_id": "A3-L-B1",
+  "x": 0.623,
+  "z": 0.148,
+  "status": "changed",
+  "gtin": "084490000016",
+  "product": "Morning Field Oat Clusters 12 oz",
+  "previous_gtin": "084490000023",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00299",
+   "p2-00300",
+   "p3-00293"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S1-03",
+  "fixture_id": "A3-L-B1",
+  "x": 0.862,
+  "z": 0.144,
+  "status": "in_stock",
+  "gtin": "084412000100",
+  "product": "Harvest Lane Honey Crunch Cinnamon 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00301",
+   "p3-00294"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S1-04",
+  "fixture_id": "A3-L-B1",
+  "x": 1.122,
+  "z": 0.169,
+  "status": "gap",
+  "gtin": "084412000087",
+  "product": "Harvest Lane Honey Crunch 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00300",
+   "p1-00301",
+   "p2-00302"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S1-11",
+  "fixture_id": "A3-L-B1",
+  "x": 1.379,
+  "z": 0.176,
+  "status": "in_stock",
+  "gtin": "084412000087",
+  "product": "Harvest Lane Honey Crunch 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00302",
+   "p2-00303",
+   "p3-00295"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S2-05",
+  "fixture_id": "A3-L-B1",
+  "x": 0.112,
+  "z": 0.507,
+  "status": "changed",
+  "gtin": "085517000026",
+  "product": "Golden Acre Marinara Low Sodium 24 oz",
+  "previous_gtin": "085517000019",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00303",
+   "p2-00304",
+   "p3-00296"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S2-06",
+  "fixture_id": "A3-L-B1",
+  "x": 0.363,
+  "z": 0.51,
+  "status": "in_stock",
+  "gtin": "085517000026",
+  "product": "Golden Acre Marinara Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00304",
+   "p2-00305",
+   "p3-00297"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S2-07",
+  "fixture_id": "A3-L-B1",
+  "x": 0.472,
+  "z": 0.349,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00451"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S2-08",
+  "fixture_id": "A3-L-B1",
+  "x": 0.629,
+  "z": 0.497,
+  "status": "in_stock",
+  "gtin": "085517000026",
+  "product": "Golden Acre Marinara Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00305",
+   "p2-00306",
+   "p3-00298"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S2-09",
+  "fixture_id": "A3-L-B1",
+  "x": 0.858,
+  "z": 0.516,
+  "status": "in_stock",
+  "gtin": "085517000026",
+  "product": "Golden Acre Marinara Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00306",
+   "p2-00307",
+   "p3-00299"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S2-10",
+  "fixture_id": "A3-L-B1",
+  "x": 1.132,
+  "z": 0.5,
+  "status": "in_stock",
+  "gtin": "085517000040",
+  "product": "Golden Acre Tomato Basil Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00307",
+   "p2-00308",
+   "p3-00300"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S2-12",
+  "fixture_id": "A3-L-B1",
+  "x": 1.388,
+  "z": 0.478,
+  "status": "gap",
+  "gtin": "085517000040",
+  "product": "Golden Acre Tomato Basil Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00308",
+   "p1-00309",
+   "p2-00309"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S3-13",
+  "fixture_id": "A3-L-B1",
+  "x": 0.143,
+  "z": 0.846,
+  "status": "changed",
+  "gtin": "084412000018",
+  "product": "Harvest Lane Oat Clusters 12 oz",
+  "previous_gtin": "084490000016",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00310",
+   "p2-00310",
+   "p3-00301"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S3-14",
+  "fixture_id": "A3-L-B1",
+  "x": 0.378,
+  "z": 0.715,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p3-00439"
+  ],
+  "unresolved_text": [
+   "$4.99"
+  ]
+ },
+ {
+  "slot_id": "A3-L-B1/S3-15",
+  "fixture_id": "A3-L-B1",
+  "x": 0.392,
+  "z": 0.848,
+  "status": "changed",
+  "gtin": "084412000056",
+  "product": "Harvest Lane Corn Flakes 12 oz",
+  "previous_gtin": "084490000016",
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00311",
+   "p3-00302"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S3-16",
+  "fixture_id": "A3-L-B1",
+  "x": 0.613,
+  "z": 0.874,
+  "status": "in_stock",
+  "gtin": "084412000018",
+  "product": "Harvest Lane Oat Clusters 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00311",
+   "p2-00312",
+   "p3-00303"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S3-17",
+  "fixture_id": "A3-L-B1",
+  "x": 0.867,
+  "z": 0.857,
+  "status": "in_stock",
+  "gtin": "084412000018",
+  "product": "Harvest Lane Oat Clusters 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00312",
+   "p2-00313",
+   "p2-00314",
+   "p3-00304",
+   "p3-00305"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S3-18",
+  "fixture_id": "A3-L-B1",
+  "x": 1.142,
+  "z": 0.847,
+  "status": "in_stock",
+  "gtin": "084412000018",
+  "product": "Harvest Lane Oat Clusters 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00313",
+   "p2-00315",
+   "p3-00306"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S3-19",
+  "fixture_id": "A3-L-B1",
+  "x": 1.385,
+  "z": 0.857,
+  "status": "changed",
+  "gtin": "084490000191",
+  "product": "Morning Field Granola 18 oz",
+  "previous_gtin": "084490000184",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00314",
+   "p2-00316",
+   "p3-00307"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S4-20",
+  "fixture_id": "A3-L-B1",
+  "x": 0.144,
+  "z": 1.195,
+  "status": "gap",
+  "gtin": "085517000033",
+  "product": "Golden Acre Tomato Basil 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00315",
+   "p2-00317"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S4-21",
+  "fixture_id": "A3-L-B1",
+  "x": 0.371,
+  "z": 1.222,
+  "status": "gap",
+  "gtin": "085517000033",
+  "product": "Golden Acre Tomato Basil 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00316"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S4-22",
+  "fixture_id": "A3-L-B1",
+  "x": 0.625,
+  "z": 1.2,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00317",
+   "p2-00318",
+   "p3-00309"
+  ],
+  "unresolved_text": [
+   "VODKA SAUCE 680 g"
+  ]
+ },
+ {
+  "slot_id": "A3-L-B1/S4-23",
+  "fixture_id": "A3-L-B1",
+  "x": 0.861,
+  "z": 1.217,
+  "status": "in_stock",
+  "gtin": "085517000057",
+  "product": "Golden Acre Vodka Sauce 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00318",
+   "p2-00319",
+   "p3-00310"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S4-24",
+  "fixture_id": "A3-L-B1",
+  "x": 1.109,
+  "z": 1.208,
+  "status": "changed",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": "085560000028",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00319",
+   "p2-00320",
+   "p3-00311"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B1/S4-25",
+  "fixture_id": "A3-L-B1",
+  "x": 1.392,
+  "z": 1.202,
+  "status": "in_stock",
+  "gtin": "085560000028",
+  "product": "Nonna Rosa Marinara Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00320",
+   "p2-00321",
+   "p3-00312"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S1-00",
+  "fixture_id": "A3-L-B2",
+  "x": 0.104,
+  "z": 0.142,
+  "status": "in_stock",
+  "gtin": "084490000108",
+  "product": "Morning Field Corn Flakes Cinnamon 18 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00321",
+   "p1-00322",
+   "p2-00322",
+   "p3-00313"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S1-01",
+  "fixture_id": "A3-L-B2",
+  "x": 0.371,
+  "z": 0.15,
+  "status": "changed",
+  "gtin": "084490000092",
+  "product": "Morning Field Corn Flakes Cinnamon 12 oz",
+  "previous_gtin": "084490000108",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00323",
+   "p2-00323",
+   "p2-00324",
+   "p3-00314"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S1-02",
+  "fixture_id": "A3-L-B2",
+  "x": 0.619,
+  "z": 0.141,
+  "status": "changed",
+  "gtin": "084412000056",
+  "product": "Harvest Lane Corn Flakes 12 oz",
+  "previous_gtin": "084412000063",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00324",
+   "p2-00325",
+   "p3-00315",
+   "p3-00316"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S1-03",
+  "fixture_id": "A3-L-B2",
+  "x": 0.852,
+  "z": 0.162,
+  "status": "in_stock",
+  "gtin": "084412000063",
+  "product": "Harvest Lane Corn Flakes 18 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00325",
+   "p1-00326",
+   "p2-00326",
+   "p3-00317"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S1-04",
+  "fixture_id": "A3-L-B2",
+  "x": 1.097,
+  "z": 0.145,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00327",
+   "p2-00327",
+   "p3-00318"
+  ],
+  "unresolved_text": [
+   "Harvest Corn Flakes (510g)"
+  ]
+ },
+ {
+  "slot_id": "A3-L-B2/S1-05",
+  "fixture_id": "A3-L-B2",
+  "x": 1.408,
+  "z": 0.102,
+  "status": "gap",
+  "gtin": "084490000092",
+  "product": "Morning Field Corn Flakes Cinnamon 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00328"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S2-06",
+  "fixture_id": "A3-L-B2",
+  "x": 0.126,
+  "z": 0.504,
+  "status": "in_stock",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00329",
+   "p2-00328",
+   "p3-00320"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S2-07",
+  "fixture_id": "A3-L-B2",
+  "x": 0.383,
+  "z": 0.497,
+  "status": "in_stock",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00330",
+   "p2-00329",
+   "p2-00330",
+   "p3-00321"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S2-08",
+  "fixture_id": "A3-L-B2",
+  "x": 0.565,
+  "z": 0.361,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p3-00440"
+  ],
+  "unresolved_text": [
+   "UNIT PRICE $0.21 PER OZ"
+  ]
+ },
+ {
+  "slot_id": "A3-L-B2/S2-09",
+  "fixture_id": "A3-L-B2",
+  "x": 0.618,
+  "z": 0.508,
+  "status": "in_stock",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00331",
+   "p2-00331",
+   "p3-00322"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S2-10",
+  "fixture_id": "A3-L-B2",
+  "x": 0.89,
+  "z": 0.499,
+  "status": "in_stock",
+  "gtin": "085517000040",
+  "product": "Golden Acre Tomato Basil Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00332",
+   "p3-00323"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S2-11",
+  "fixture_id": "A3-L-B2",
+  "x": 1.14,
+  "z": 0.511,
+  "status": "changed",
+  "gtin": "085517000064",
+  "product": "Golden Acre Arrabbiata 24 oz",
+  "previous_gtin": "085517000071",
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00333",
+   "p3-00324"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S2-12",
+  "fixture_id": "A3-L-B2",
+  "x": 1.377,
+  "z": 0.492,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00334",
+   "p2-00333",
+   "p3-00325"
+  ],
+  "unresolved_text": [
+   "Golden Arrabbiata LOW SOD1UM (680g)"
+  ]
+ },
+ {
+  "slot_id": "A3-L-B2/S3-13",
+  "fixture_id": "A3-L-B2",
+  "x": 0.144,
+  "z": 0.831,
+  "status": "changed",
+  "gtin": "084412000094",
+  "product": "Harvest Lane Honey Crunch 18 oz",
+  "previous_gtin": "084490000139",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00335",
+   "p2-00334",
+   "p2-00335",
+   "p3-00326"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S3-14",
+  "fixture_id": "A3-L-B2",
+  "x": 0.37,
+  "z": 0.856,
+  "status": "in_stock",
+  "gtin": "084490000146",
+  "product": "Morning Field Honey Crunch 18 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00336",
+   "p2-00336",
+   "p3-00327"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S3-15",
+  "fixture_id": "A3-L-B2",
+  "x": 0.637,
+  "z": 0.848,
+  "status": "in_stock",
+  "gtin": "084412000148",
+  "product": "Harvest Lane Granola 18 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00337",
+   "p3-00328"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S3-16",
+  "fixture_id": "A3-L-B2",
+  "x": 0.889,
+  "z": 0.85,
+  "status": "gap",
+  "gtin": "084412000087",
+  "product": "Harvest Lane Honey Crunch 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00338",
+   "p2-00338"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S3-17",
+  "fixture_id": "A3-L-B2",
+  "x": 1.139,
+  "z": 0.846,
+  "status": "in_stock",
+  "gtin": "084412000087",
+  "product": "Harvest Lane Honey Crunch 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00339",
+   "p2-00339",
+   "p3-00329"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S3-18",
+  "fixture_id": "A3-L-B2",
+  "x": 1.355,
+  "z": 0.862,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00340",
+   "p2-00340",
+   "p3-00330"
+  ],
+  "unresolved_text": [
+   "GRANOLA Almond 18oz"
+  ]
+ },
+ {
+  "slot_id": "A3-L-B2/S4-19",
+  "fixture_id": "A3-L-B2",
+  "x": 0.121,
+  "z": 1.198,
+  "status": "changed",
+  "gtin": "085517000019",
+  "product": "Golden Acre Marinara 24 oz",
+  "previous_gtin": "085517000026",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00341",
+   "p1-00342",
+   "p2-00341",
+   "p3-00331",
+   "p3-00332"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S4-20",
+  "fixture_id": "A3-L-B2",
+  "x": 0.396,
+  "z": 1.192,
+  "status": "gap",
+  "gtin": "085517000026",
+  "product": "Golden Acre Marinara Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00343",
+   "p2-00342"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S4-21",
+  "fixture_id": "A3-L-B2",
+  "x": 0.64,
+  "z": 1.196,
+  "status": "changed",
+  "gtin": "085560000028",
+  "product": "Nonna Rosa Marinara Low Sodium 24 oz",
+  "previous_gtin": "085517000026",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00344",
+   "p2-00343",
+   "p3-00333"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S4-22",
+  "fixture_id": "A3-L-B2",
+  "x": 0.877,
+  "z": 1.203,
+  "status": "in_stock",
+  "gtin": "085560000028",
+  "product": "Nonna Rosa Marinara Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00345",
+   "p2-00344",
+   "p3-00334",
+   "p3-00335"
+  ],
+  "unresolved_text": [
+   "(680g) MARINARA Lo Sodium"
+  ]
+ },
+ {
+  "slot_id": "A3-L-B2/S4-23",
+  "fixture_id": "A3-L-B2",
+  "x": 1.158,
+  "z": 1.189,
+  "status": "gap",
+  "gtin": "085517000057",
+  "product": "Golden Acre Vodka Sauce 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00346",
+   "p2-00345"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B2/S4-24",
+  "fixture_id": "A3-L-B2",
+  "x": 1.386,
+  "z": 1.194,
+  "status": "in_stock",
+  "gtin": "085517000064",
+  "product": "Golden Acre Arrabbiata 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00347",
+   "p2-00346",
+   "p3-00336"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S1-00",
+  "fixture_id": "A3-L-B3",
+  "x": 0.129,
+  "z": 0.137,
+  "status": "in_stock",
+  "gtin": "084412000032",
+  "product": "Harvest Lane Oat Clusters Cinnamon 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00348",
+   "p2-00347",
+   "p3-00337"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S1-01",
+  "fixture_id": "A3-L-B3",
+  "x": 0.37,
+  "z": 0.156,
+  "status": "changed",
+  "gtin": "084412000018",
+  "product": "Harvest Lane Oat Clusters 12 oz",
+  "previous_gtin": "084412000032",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00349",
+   "p2-00348",
+   "p3-00338"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S1-02",
+  "fixture_id": "A3-L-B3",
+  "x": 0.604,
+  "z": 0.152,
+  "status": "in_stock",
+  "gtin": "084412000032",
+  "product": "Harvest Lane Oat Clusters Cinnamon 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00350",
+   "p2-00349",
+   "p3-00339"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S1-03",
+  "fixture_id": "A3-L-B3",
+  "x": 0.839,
+  "z": 0.149,
+  "status": "gap",
+  "gtin": "084490000023",
+  "product": "Morning Field Oat Clusters 18 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00351"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S1-04",
+  "fixture_id": "A3-L-B3",
+  "x": 1.137,
+  "z": 0.147,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00352",
+   "p2-00350",
+   "p3-00340"
+  ],
+  "unresolved_text": [
+   "HARVEST LANE (454g)"
+  ]
+ },
+ {
+  "slot_id": "A3-L-B3/S1-05",
+  "fixture_id": "A3-L-B3",
+  "x": 1.365,
+  "z": 0.137,
+  "status": "in_stock",
+  "gtin": "084490000054",
+  "product": "Morning Field Oat Clusters Almond 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00353",
+   "p2-00351",
+   "p3-00341"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S2-06",
+  "fixture_id": "A3-L-B3",
+  "x": 0.151,
+  "z": 0.515,
+  "status": "in_stock",
+  "gtin": "085560000066",
+  "product": "Nonna Rosa Arrabbiata 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00354",
+   "p2-00352",
+   "p3-00342"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S2-07",
+  "fixture_id": "A3-L-B3",
+  "x": 0.629,
+  "z": 0.497,
+  "status": "changed",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": "085517000019",
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00357",
+   "p3-00344",
+   "p3-00345"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S2-08",
+  "fixture_id": "A3-L-B3",
+  "x": 0.849,
+  "z": 0.489,
+  "status": "changed",
+  "gtin": "085517000033",
+  "product": "Golden Acre Tomato Basil 24 oz",
+  "previous_gtin": "085517000040",
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00358",
+   "p3-00346"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S2-09",
+  "fixture_id": "A3-L-B3",
+  "x": 1.142,
+  "z": 0.465,
+  "status": "in_stock",
+  "gtin": "085517000071",
+  "product": "Golden Acre Arrabbiata Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00359",
+   "p3-00347"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S2-10",
+  "fixture_id": "A3-L-B3",
+  "x": 1.359,
+  "z": 0.489,
+  "status": "changed",
+  "gtin": "085517000026",
+  "product": "Golden Acre Marinara Low Sodium 24 oz",
+  "previous_gtin": "085517000033",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00360",
+   "p2-00354",
+   "p3-00348",
+   "p3-00349"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S2-12",
+  "fixture_id": "A3-L-B3",
+  "x": 0.367,
+  "z": 0.527,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00355",
+   "p1-00356",
+   "p2-00353",
+   "p3-00343"
+  ],
+  "unresolved_text": [
+   "(680g) Nonna ARRABBIATA"
+  ]
+ },
+ {
+  "slot_id": "A3-L-B3/S3-11",
+  "fixture_id": "A3-L-B3",
+  "x": 0.125,
+  "z": 0.847,
+  "status": "changed",
+  "gtin": "084412000087",
+  "product": "Harvest Lane Honey Crunch 12 oz",
+  "previous_gtin": "084412000094",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00361",
+   "p2-00355",
+   "p3-00350"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S3-13",
+  "fixture_id": "A3-L-B3",
+  "x": 0.385,
+  "z": 0.852,
+  "status": "changed",
+  "gtin": "084412000094",
+  "product": "Harvest Lane Honey Crunch 18 oz",
+  "previous_gtin": "084412000087",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00362",
+   "p2-00356",
+   "p3-00351"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S3-14",
+  "fixture_id": "A3-L-B3",
+  "x": 0.61,
+  "z": 0.835,
+  "status": "changed",
+  "gtin": "084412000094",
+  "product": "Harvest Lane Honey Crunch 18 oz",
+  "previous_gtin": "084412000087",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00363",
+   "p2-00357",
+   "p3-00352"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S3-15",
+  "fixture_id": "A3-L-B3",
+  "x": 0.892,
+  "z": 0.843,
+  "status": "in_stock",
+  "gtin": "084412000100",
+  "product": "Harvest Lane Honey Crunch Cinnamon 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00364",
+   "p2-00358",
+   "p2-00359",
+   "p3-00353"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S3-16",
+  "fixture_id": "A3-L-B3",
+  "x": 1.13,
+  "z": 0.869,
+  "status": "in_stock",
+  "gtin": "084412000087",
+  "product": "Harvest Lane Honey Crunch 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00365",
+   "p2-00360",
+   "p3-00354"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S3-17",
+  "fixture_id": "A3-L-B3",
+  "x": 1.274,
+  "z": 0.711,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p3-00441"
+  ],
+  "unresolved_text": [
+   "SAVE $1.00"
+  ]
+ },
+ {
+  "slot_id": "A3-L-B3/S3-18",
+  "fixture_id": "A3-L-B3",
+  "x": 1.374,
+  "z": 0.845,
+  "status": "changed",
+  "gtin": "084412000087",
+  "product": "Harvest Lane Honey Crunch 12 oz",
+  "previous_gtin": "084412000100",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00366",
+   "p1-00367",
+   "p2-00361",
+   "p3-00355"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S4-19",
+  "fixture_id": "A3-L-B3",
+  "x": 0.127,
+  "z": 1.191,
+  "status": "in_stock",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00368",
+   "p2-00362",
+   "p3-00356",
+   "p3-00357"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S4-20",
+  "fixture_id": "A3-L-B3",
+  "x": 0.37,
+  "z": 1.174,
+  "status": "in_stock",
+  "gtin": "085560000066",
+  "product": "Nonna Rosa Arrabbiata 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00369",
+   "p2-00363",
+   "p3-00358"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S4-21",
+  "fixture_id": "A3-L-B3",
+  "x": 0.603,
+  "z": 1.21,
+  "status": "in_stock",
+  "gtin": "085560000066",
+  "product": "Nonna Rosa Arrabbiata 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00370",
+   "p2-00364",
+   "p3-00359"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S4-22",
+  "fixture_id": "A3-L-B3",
+  "x": 0.869,
+  "z": 1.224,
+  "status": "in_stock",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00371",
+   "p2-00365",
+   "p3-00360"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S4-23",
+  "fixture_id": "A3-L-B3",
+  "x": 1.134,
+  "z": 1.189,
+  "status": "in_stock",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00372",
+   "p2-00366",
+   "p3-00361"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-L-B3/S4-24",
+  "fixture_id": "A3-L-B3",
+  "x": 1.397,
+  "z": 1.213,
+  "status": "in_stock",
+  "gtin": "085560000073",
+  "product": "Nonna Rosa Arrabbiata Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00373",
+   "p2-00367",
+   "p3-00362"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S1-00",
+  "fixture_id": "A3-R-B1",
+  "x": 0.114,
+  "z": 0.156,
+  "status": "in_stock",
+  "gtin": "084490000184",
+  "product": "Morning Field Granola 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00374",
+   "p2-00368",
+   "p3-00363"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S1-01",
+  "fixture_id": "A3-R-B1",
+  "x": 0.367,
+  "z": 0.157,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00375",
+   "p2-00369",
+   "p3-00364"
+  ],
+  "unresolved_text": [
+   "Morning Gran0la"
+  ]
+ },
+ {
+  "slot_id": "A3-R-B1/S1-02",
+  "fixture_id": "A3-R-B1",
+  "x": 0.635,
+  "z": 0.144,
+  "status": "in_stock",
+  "gtin": "084490000030",
+  "product": "Morning Field Oat Clusters Cinnamon 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00376",
+   "p2-00370",
+   "p3-00365"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S1-03",
+  "fixture_id": "A3-R-B1",
+  "x": 0.887,
+  "z": 0.131,
+  "status": "changed",
+  "gtin": "084490000047",
+  "product": "Morning Field Oat Clusters Cinnamon 18 oz",
+  "previous_gtin": "084490000023",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00377",
+   "p2-00371",
+   "p3-00366"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S1-04",
+  "fixture_id": "A3-R-B1",
+  "x": 1.137,
+  "z": 0.163,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00378",
+   "p2-00372",
+   "p2-00373",
+   "p3-00367"
+  ],
+  "unresolved_text": [
+   "M0rning OAT CLUSTERS (510g)"
+  ]
+ },
+ {
+  "slot_id": "A3-R-B1/S1-05",
+  "fixture_id": "A3-R-B1",
+  "x": 1.345,
+  "z": 0.151,
+  "status": "in_stock",
+  "gtin": "084412000148",
+  "product": "Harvest Lane Granola 18 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00379",
+   "p2-00374",
+   "p3-00368"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S2-06",
+  "fixture_id": "A3-R-B1",
+  "x": 0.106,
+  "z": 0.477,
+  "status": "in_stock",
+  "gtin": "085560000073",
+  "product": "Nonna Rosa Arrabbiata Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00380",
+   "p3-00369"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S2-07",
+  "fixture_id": "A3-R-B1",
+  "x": 0.358,
+  "z": 0.516,
+  "status": "gap",
+  "gtin": "085560000073",
+  "product": "Nonna Rosa Arrabbiata Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00381"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S2-08",
+  "fixture_id": "A3-R-B1",
+  "x": 0.624,
+  "z": 0.498,
+  "status": "in_stock",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00382",
+   "p1-00383",
+   "p2-00375",
+   "p3-00370"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S2-09",
+  "fixture_id": "A3-R-B1",
+  "x": 0.76,
+  "z": 0.36,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p3-00442"
+  ],
+  "unresolved_text": [
+   "25% OFF"
+  ]
+ },
+ {
+  "slot_id": "A3-R-B1/S2-10",
+  "fixture_id": "A3-R-B1",
+  "x": 0.866,
+  "z": 0.49,
+  "status": "in_stock",
+  "gtin": "085560000028",
+  "product": "Nonna Rosa Marinara Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00384",
+   "p1-00385",
+   "p2-00376",
+   "p3-00371"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S2-11",
+  "fixture_id": "A3-R-B1",
+  "x": 1.13,
+  "z": 0.492,
+  "status": "in_stock",
+  "gtin": "085517000033",
+  "product": "Golden Acre Tomato Basil 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00386",
+   "p3-00372"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S2-12",
+  "fixture_id": "A3-R-B1",
+  "x": 1.381,
+  "z": 0.503,
+  "status": "in_stock",
+  "gtin": "085560000035",
+  "product": "Nonna Rosa Tomato Basil 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00387",
+   "p2-00377",
+   "p3-00373"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S3-13",
+  "fixture_id": "A3-R-B1",
+  "x": 0.14,
+  "z": 0.855,
+  "status": "changed",
+  "gtin": "084412000131",
+  "product": "Harvest Lane Honey Crunch Almond 18 oz",
+  "previous_gtin": "084412000094",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00388",
+   "p2-00378",
+   "p3-00374"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S3-14",
+  "fixture_id": "A3-R-B1",
+  "x": 0.355,
+  "z": 0.855,
+  "status": "gap",
+  "gtin": "084412000124",
+  "product": "Harvest Lane Honey Crunch Almond 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00389",
+   "p2-00379"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S3-15",
+  "fixture_id": "A3-R-B1",
+  "x": 0.592,
+  "z": 0.858,
+  "status": "gap",
+  "gtin": "084412000070",
+  "product": "Harvest Lane Corn Flakes Almond 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00390",
+   "p2-00380"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S3-16",
+  "fixture_id": "A3-R-B1",
+  "x": 0.877,
+  "z": 0.841,
+  "status": "in_stock",
+  "gtin": "084490000191",
+  "product": "Morning Field Granola 18 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00391",
+   "p2-00381",
+   "p3-00375"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S3-17",
+  "fixture_id": "A3-R-B1",
+  "x": 1.123,
+  "z": 0.856,
+  "status": "in_stock",
+  "gtin": "084490000177",
+  "product": "Morning Field Honey Crunch Almond 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00392",
+   "p2-00382",
+   "p3-00376"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S3-18",
+  "fixture_id": "A3-R-B1",
+  "x": 1.381,
+  "z": 0.846,
+  "status": "changed",
+  "gtin": "084490000238",
+  "product": "Morning Field Granola Almond 18 oz",
+  "previous_gtin": "084490000221",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00393",
+   "p2-00383",
+   "p3-00377"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S4-19",
+  "fixture_id": "A3-R-B1",
+  "x": 0.124,
+  "z": 1.203,
+  "status": "in_stock",
+  "gtin": "085517000019",
+  "product": "Golden Acre Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00394",
+   "p2-00384",
+   "p2-00385",
+   "p3-00378"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S4-20",
+  "fixture_id": "A3-R-B1",
+  "x": 0.363,
+  "z": 1.213,
+  "status": "changed",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": "085517000026",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00395",
+   "p2-00386",
+   "p3-00379"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S4-21",
+  "fixture_id": "A3-R-B1",
+  "x": 0.621,
+  "z": 1.201,
+  "status": "changed",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": "085560000028",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00396",
+   "p2-00387",
+   "p3-00380"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S4-22",
+  "fixture_id": "A3-R-B1",
+  "x": 0.861,
+  "z": 1.2,
+  "status": "changed",
+  "gtin": "085560000028",
+  "product": "Nonna Rosa Marinara Low Sodium 24 oz",
+  "previous_gtin": "085560000011",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00397",
+   "p2-00388",
+   "p3-00381"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S4-23",
+  "fixture_id": "A3-R-B1",
+  "x": 1.126,
+  "z": 1.202,
+  "status": "changed",
+  "gtin": "085560000028",
+  "product": "Nonna Rosa Marinara Low Sodium 24 oz",
+  "previous_gtin": "085517000026",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00398",
+   "p2-00389",
+   "p3-00382"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B1/S4-24",
+  "fixture_id": "A3-R-B1",
+  "x": 1.392,
+  "z": 1.203,
+  "status": "in_stock",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00399",
+   "p2-00390",
+   "p3-00383"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S1-00",
+  "fixture_id": "A3-R-B2",
+  "x": 0.139,
+  "z": 0.161,
+  "status": "changed",
+  "gtin": "084412000117",
+  "product": "Harvest Lane Honey Crunch Cinnamon 18 oz",
+  "previous_gtin": "084412000100",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00400",
+   "p2-00391",
+   "p3-00384"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S1-01",
+  "fixture_id": "A3-R-B2",
+  "x": 0.281,
+  "z": 0.03,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00452"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S1-02",
+  "fixture_id": "A3-R-B2",
+  "x": 0.395,
+  "z": 0.142,
+  "status": "in_stock",
+  "gtin": "084490000191",
+  "product": "Morning Field Granola 18 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00401",
+   "p2-00392",
+   "p2-00393",
+   "p3-00385"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S1-03",
+  "fixture_id": "A3-R-B2",
+  "x": 0.445,
+  "z": 0.011,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p3-00443"
+  ],
+  "unresolved_text": [
+   "SAVE $1.00"
+  ]
+ },
+ {
+  "slot_id": "A3-R-B2/S1-04",
+  "fixture_id": "A3-R-B2",
+  "x": 0.64,
+  "z": 0.154,
+  "status": "in_stock",
+  "gtin": "084490000191",
+  "product": "Morning Field Granola 18 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.8,
+  "detections": [
+   "p1-00402",
+   "p1-00403",
+   "p2-00394",
+   "p3-00386",
+   "p3-00387"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S1-05",
+  "fixture_id": "A3-R-B2",
+  "x": 0.875,
+  "z": 0.143,
+  "status": "changed",
+  "gtin": "084490000191",
+  "product": "Morning Field Granola 18 oz",
+  "previous_gtin": "084490000184",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00404",
+   "p1-00405",
+   "p2-00395",
+   "p3-00388"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S1-06",
+  "fixture_id": "A3-R-B2",
+  "x": 1.132,
+  "z": 0.155,
+  "status": "changed",
+  "gtin": "084490000078",
+  "product": "Morning Field Corn Flakes 12 oz",
+  "previous_gtin": "084490000115",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00406",
+   "p2-00396",
+   "p3-00389"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S1-07",
+  "fixture_id": "A3-R-B2",
+  "x": 1.357,
+  "z": 0.144,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00407",
+   "p2-00397",
+   "p3-00390"
+  ],
+  "unresolved_text": [
+   "PROTEIN CLUSTERS 16 OZ"
+  ]
+ },
+ {
+  "slot_id": "A3-R-B2/S2-08",
+  "fixture_id": "A3-R-B2",
+  "x": 0.111,
+  "z": 0.512,
+  "status": "in_stock",
+  "gtin": "085517000057",
+  "product": "Golden Acre Vodka Sauce 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00408",
+   "p2-00398",
+   "p3-00391"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S2-09",
+  "fixture_id": "A3-R-B2",
+  "x": 0.36,
+  "z": 0.496,
+  "status": "in_stock",
+  "gtin": "085517000057",
+  "product": "Golden Acre Vodka Sauce 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00409",
+   "p2-00399",
+   "p3-00392"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S2-10",
+  "fixture_id": "A3-R-B2",
+  "x": 0.645,
+  "z": 0.501,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00410",
+   "p1-00411",
+   "p2-00400",
+   "p3-00393"
+  ],
+  "unresolved_text": [
+   "24oz Nonna Rosa"
+  ]
+ },
+ {
+  "slot_id": "A3-R-B2/S2-11",
+  "fixture_id": "A3-R-B2",
+  "x": 0.885,
+  "z": 0.497,
+  "status": "in_stock",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00412",
+   "p3-00394",
+   "p3-00395"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S2-12",
+  "fixture_id": "A3-R-B2",
+  "x": 1.116,
+  "z": 0.508,
+  "status": "gap",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00413",
+   "p2-00401"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S2-13",
+  "fixture_id": "A3-R-B2",
+  "x": 1.349,
+  "z": 0.495,
+  "status": "in_stock",
+  "gtin": "085517000033",
+  "product": "Golden Acre Tomato Basil 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00414",
+   "p2-00402",
+   "p3-00396"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S3-14",
+  "fixture_id": "A3-R-B2",
+  "x": 0.128,
+  "z": 0.841,
+  "status": "changed",
+  "gtin": "084490000115",
+  "product": "Morning Field Corn Flakes Almond 12 oz",
+  "previous_gtin": "084490000122",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00415",
+   "p2-00403",
+   "p3-00397",
+   "p3-00398"
+  ],
+  "unresolved_text": [
+   "(510g) Corn Flakes ALMOND"
+  ]
+ },
+ {
+  "slot_id": "A3-R-B2/S3-15",
+  "fixture_id": "A3-R-B2",
+  "x": 0.381,
+  "z": 0.834,
+  "status": "changed",
+  "gtin": "084490000054",
+  "product": "Morning Field Oat Clusters Almond 12 oz",
+  "previous_gtin": "084490000115",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00416",
+   "p1-00417",
+   "p2-00404",
+   "p3-00399"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S3-16",
+  "fixture_id": "A3-R-B2",
+  "x": 0.607,
+  "z": 0.83,
+  "status": "in_stock",
+  "gtin": "084490000122",
+  "product": "Morning Field Corn Flakes Almond 18 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00418",
+   "p2-00405",
+   "p3-00400"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S3-17",
+  "fixture_id": "A3-R-B2",
+  "x": 0.825,
+  "z": 0.733,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p1-00458"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S3-18",
+  "fixture_id": "A3-R-B2",
+  "x": 0.876,
+  "z": 0.833,
+  "status": "in_stock",
+  "gtin": "084490000184",
+  "product": "Morning Field Granola 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00419",
+   "p2-00406",
+   "p3-00401"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S3-19",
+  "fixture_id": "A3-R-B2",
+  "x": 1.115,
+  "z": 0.86,
+  "status": "in_stock",
+  "gtin": "084490000184",
+  "product": "Morning Field Granola 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00420",
+   "p1-00421",
+   "p2-00407",
+   "p3-00402"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S3-20",
+  "fixture_id": "A3-R-B2",
+  "x": 1.372,
+  "z": 0.841,
+  "status": "in_stock",
+  "gtin": "084412000070",
+  "product": "Harvest Lane Corn Flakes Almond 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00422",
+   "p2-00408",
+   "p3-00403"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S4-21",
+  "fixture_id": "A3-R-B2",
+  "x": 0.109,
+  "z": 1.199,
+  "status": "changed",
+  "gtin": "085517000064",
+  "product": "Golden Acre Arrabbiata 24 oz",
+  "previous_gtin": "085517000071",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00423",
+   "p1-00424",
+   "p2-00409",
+   "p3-00404"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S4-22",
+  "fixture_id": "A3-R-B2",
+  "x": 0.359,
+  "z": 1.077,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   3
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p3-00444"
+  ],
+  "unresolved_text": [
+   "SAVE $1.00"
+  ]
+ },
+ {
+  "slot_id": "A3-R-B2/S4-23",
+  "fixture_id": "A3-R-B2",
+  "x": 0.368,
+  "z": 1.209,
+  "status": "in_stock",
+  "gtin": "085517000057",
+  "product": "Golden Acre Vodka Sauce 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00425",
+   "p3-00405"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S4-24",
+  "fixture_id": "A3-R-B2",
+  "x": 0.622,
+  "z": 1.196,
+  "status": "in_stock",
+  "gtin": "085517000057",
+  "product": "Golden Acre Vodka Sauce 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00426",
+   "p2-00410",
+   "p3-00406"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S4-25",
+  "fixture_id": "A3-R-B2",
+  "x": 0.86,
+  "z": 1.198,
+  "status": "changed",
+  "gtin": "085560000042",
+  "product": "Nonna Rosa Vodka Sauce 24 oz",
+  "previous_gtin": "085560000059",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00427",
+   "p2-00411",
+   "p3-00407"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S4-26",
+  "fixture_id": "A3-R-B2",
+  "x": 1.121,
+  "z": 1.171,
+  "status": "in_stock",
+  "gtin": "085517000019",
+  "product": "Golden Acre Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00428",
+   "p2-00412",
+   "p3-00408"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B2/S4-27",
+  "fixture_id": "A3-R-B2",
+  "x": 1.383,
+  "z": 1.198,
+  "status": "changed",
+  "gtin": "085560000011",
+  "product": "Nonna Rosa Marinara 24 oz",
+  "previous_gtin": "085517000019",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00429",
+   "p2-00413",
+   "p3-00409"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S1-00",
+  "fixture_id": "A3-R-B3",
+  "x": 0.139,
+  "z": 0.139,
+  "status": "in_stock",
+  "gtin": "084412000100",
+  "product": "Harvest Lane Honey Crunch Cinnamon 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00430",
+   "p2-00414",
+   "p3-00410"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S1-01",
+  "fixture_id": "A3-R-B3",
+  "x": 0.372,
+  "z": 0.159,
+  "status": "changed",
+  "gtin": "084412000100",
+  "product": "Harvest Lane Honey Crunch Cinnamon 12 oz",
+  "previous_gtin": "084412000087",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00431",
+   "p1-00432",
+   "p2-00415",
+   "p3-00411"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S1-02",
+  "fixture_id": "A3-R-B3",
+  "x": 0.416,
+  "z": 0.004,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00454"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S1-03",
+  "fixture_id": "A3-R-B3",
+  "x": 0.618,
+  "z": 0.147,
+  "status": "in_stock",
+  "gtin": "084412000018",
+  "product": "Harvest Lane Oat Clusters 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00416",
+   "p2-00417",
+   "p3-00412"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S1-04",
+  "fixture_id": "A3-R-B3",
+  "x": 1.138,
+  "z": 0.158,
+  "status": "in_stock",
+  "gtin": "084490000054",
+  "product": "Morning Field Oat Clusters Almond 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.75,
+  "detections": [
+   "p1-00433",
+   "p2-00419",
+   "p2-00420",
+   "p3-00414"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S1-05",
+  "fixture_id": "A3-R-B3",
+  "x": 1.23,
+  "z": 0.005,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p1-00459"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S1-06",
+  "fixture_id": "A3-R-B3",
+  "x": 1.356,
+  "z": 0.168,
+  "status": "in_stock",
+  "gtin": "084490000054",
+  "product": "Morning Field Oat Clusters Almond 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00434",
+   "p2-00421",
+   "p3-00415"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S1-11",
+  "fixture_id": "A3-R-B3",
+  "x": 0.886,
+  "z": 0.182,
+  "status": "in_stock",
+  "gtin": "084412000018",
+  "product": "Harvest Lane Oat Clusters 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00418",
+   "p3-00413"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S2-07",
+  "fixture_id": "A3-R-B3",
+  "x": 0.122,
+  "z": 0.499,
+  "status": "changed",
+  "gtin": "085517000033",
+  "product": "Golden Acre Tomato Basil 24 oz",
+  "previous_gtin": "085517000040",
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00422",
+   "p3-00416",
+   "p3-00417"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S2-08",
+  "fixture_id": "A3-R-B3",
+  "x": 0.385,
+  "z": 0.51,
+  "status": "in_stock",
+  "gtin": "085517000040",
+  "product": "Golden Acre Tomato Basil Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00435",
+   "p2-00423",
+   "p3-00418"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S2-09",
+  "fixture_id": "A3-R-B3",
+  "x": 0.613,
+  "z": 0.488,
+  "status": "in_stock",
+  "gtin": "085517000040",
+  "product": "Golden Acre Tomato Basil Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00436",
+   "p2-00424",
+   "p3-00419"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S2-10",
+  "fixture_id": "A3-R-B3",
+  "x": 0.841,
+  "z": 0.503,
+  "status": "changed",
+  "gtin": "085517000026",
+  "product": "Golden Acre Marinara Low Sodium 24 oz",
+  "previous_gtin": "085517000019",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00437",
+   "p2-00425",
+   "p3-00420"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S2-12",
+  "fixture_id": "A3-R-B3",
+  "x": 1.116,
+  "z": 0.508,
+  "status": "in_stock",
+  "gtin": "085517000026",
+  "product": "Golden Acre Marinara Low Sodium 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00438",
+   "p2-00426",
+   "p3-00421"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S2-13",
+  "fixture_id": "A3-R-B3",
+  "x": 1.355,
+  "z": 0.375,
+  "status": "gap",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 0.0,
+  "detections": [
+   "p2-00453"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S2-14",
+  "fixture_id": "A3-R-B3",
+  "x": 1.398,
+  "z": 0.523,
+  "status": "changed",
+  "gtin": "085517000026",
+  "product": "Golden Acre Marinara Low Sodium 24 oz",
+  "previous_gtin": "085517000019",
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00439",
+   "p2-00427",
+   "p3-00422"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S3-15",
+  "fixture_id": "A3-R-B3",
+  "x": 0.126,
+  "z": 0.855,
+  "status": "changed",
+  "gtin": "084490000221",
+  "product": "Morning Field Granola Almond 12 oz",
+  "previous_gtin": "084490000054",
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00440",
+   "p3-00423"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S3-16",
+  "fixture_id": "A3-R-B3",
+  "x": 0.344,
+  "z": 0.852,
+  "status": "in_stock",
+  "gtin": "084490000177",
+  "product": "Morning Field Honey Crunch Almond 12 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00441",
+   "p2-00428",
+   "p3-00424"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S3-17",
+  "fixture_id": "A3-R-B3",
+  "x": 0.627,
+  "z": 0.855,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00442",
+   "p2-00429",
+   "p3-00425"
+  ],
+  "unresolved_text": [
+   "16oz Harvest Lane Pr0tein Clusters"
+  ]
+ },
+ {
+  "slot_id": "A3-R-B3/S3-18",
+  "fixture_id": "A3-R-B3",
+  "x": 0.888,
+  "z": 0.856,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   3
+  ],
+  "confidence": 0.5,
+  "detections": [
+   "p1-00443",
+   "p3-00426"
+  ],
+  "unresolved_text": [
+   "18oz H0ney Crunch ALMOND"
+  ]
+ },
+ {
+  "slot_id": "A3-R-B3/S3-19",
+  "fixture_id": "A3-R-B3",
+  "x": 1.097,
+  "z": 0.853,
+  "status": "changed",
+  "gtin": "084412000131",
+  "product": "Harvest Lane Honey Crunch Almond 18 oz",
+  "previous_gtin": "084412000094",
+  "passes_seen": [
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00430",
+   "p3-00427"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S3-20",
+  "fixture_id": "A3-R-B3",
+  "x": 1.377,
+  "z": 0.85,
+  "status": "gap",
+  "gtin": "084412000131",
+  "product": "Harvest Lane Honey Crunch Almond 18 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p2-00431"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S4-21",
+  "fixture_id": "A3-R-B3",
+  "x": 0.115,
+  "z": 1.19,
+  "status": "gap",
+  "gtin": "085517000019",
+  "product": "Golden Acre Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00444",
+   "p2-00432",
+   "p2-00433"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S4-22",
+  "fixture_id": "A3-R-B3",
+  "x": 0.376,
+  "z": 1.214,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.67,
+  "detections": [
+   "p1-00445",
+   "p2-00434",
+   "p3-00428"
+  ],
+  "unresolved_text": [
+   "G0lden Acre Marinara"
+  ]
+ },
+ {
+  "slot_id": "A3-R-B3/S4-23",
+  "fixture_id": "A3-R-B3",
+  "x": 0.632,
+  "z": 1.195,
+  "status": "gap",
+  "gtin": "085517000019",
+  "product": "Golden Acre Marinara 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00446",
+   "p2-00435"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S4-24",
+  "fixture_id": "A3-R-B3",
+  "x": 0.895,
+  "z": 1.203,
+  "status": "in_stock",
+  "gtin": "085560000042",
+  "product": "Nonna Rosa Vodka Sauce 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00447",
+   "p2-00436",
+   "p3-00429",
+   "p3-00430"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S4-25",
+  "fixture_id": "A3-R-B3",
+  "x": 1.104,
+  "z": 1.203,
+  "status": "in_stock",
+  "gtin": "085560000042",
+  "product": "Nonna Rosa Vodka Sauce 24 oz",
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 1.0,
+  "detections": [
+   "p1-00448",
+   "p2-00437",
+   "p3-00431"
+  ],
+  "unresolved_text": []
+ },
+ {
+  "slot_id": "A3-R-B3/S4-26",
+  "fixture_id": "A3-R-B3",
+  "x": 1.362,
+  "z": 1.184,
+  "status": "new_item",
+  "gtin": null,
+  "product": null,
+  "previous_gtin": null,
+  "passes_seen": [
+   1,
+   2,
+   3
+  ],
+  "confidence": 0.33,
+  "detections": [
+   "p1-00449",
+   "p2-00438",
+   "p3-00432"
+  ],
+  "unresolved_text": [
+   "680 g Nonna Vodka 5auce"
+  ]
+ }
+]

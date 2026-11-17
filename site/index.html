@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shelf Conflation Engine</title>
+<meta name="description" content="Turns noisy wearable-camera shelf detections into one versioned, verified record per shelf slot: regex and rules first, spatial agreement second, an LLM only for what's left.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f5f4f0;--surface:#fff;--ink:#16181d;--soft:#5d6470;--rule:#e1ded6;--chip:#eeece6;--accent:#1d5c4f;
+--in:#2f8a5f;--changed:#2c6fb5;--gap:#9aa1ab;--new:#7d4fb3;--review:#c98a12;--bad:#c23b3b;--focus:#2563eb;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#111317;--surface:#191c22;--ink:#e9ebef;--soft:#9aa3b0;--rule:#2a2f38;--chip:#232831;--accent:#6cc3a9;
+--in:#4fb383;--changed:#5d9ce0;--gap:#6b7280;--new:#a983da;--review:#e2a93b;--bad:#ef6f6f;--focus:#7aa7ff;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 "IBM Plex Sans",system-ui,sans-serif}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace}
+.back{background:var(--ink);color:var(--paper);font-size:.88rem}
+.back a{color:inherit;text-decoration:none;display:block;max-width:1160px;margin:0 auto;padding:8px 16px}
+.back a:hover{text-decoration:underline}
+main{max-width:1160px;margin:0 auto;padding:36px 16px 72px}
+.eyebrow{font-weight:600;color:var(--accent);font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;margin:0}
+h1{font-size:clamp(2rem,5vw,3.1rem);line-height:1.05;margin:8px 0 12px;letter-spacing:-.02em}
+.lede{font-size:1.12rem;color:var(--soft);max-width:760px;margin:0}
+.links{margin-top:14px;display:flex;gap:16px;flex-wrap:wrap;font-weight:500}
+h2{font-size:1.45rem;margin:0 0 6px;letter-spacing:-.01em}
+section{margin-top:56px}
+.sub{color:var(--soft);margin:0 0 18px;max-width:780px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:28px}
+.kpi{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:14px 16px}
+.kpi b{display:block;font-size:1.9rem;line-height:1.1;letter-spacing:-.02em}
+.kpi span{color:var(--soft);font-size:.9rem}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:18px}
+.funnel .row{display:grid;grid-template-columns:150px 1fr 140px;gap:12px;align-items:center;padding:7px 0;border-bottom:1px solid var(--rule)}
+.funnel .row:last-child{border-bottom:0}
+.funnel .lab b{display:block;font-size:.95rem}.funnel .lab span{font-size:.8rem;color:var(--soft)}
+.track{height:16px;background:var(--chip);border-radius:4px;overflow:hidden}
+.track i{display:block;height:100%;background:var(--accent);border-radius:4px}
+.funnel .num{text-align:right;font-variant-numeric:tabular-nums;font-size:.9rem}
+.funnel .num small{display:block;color:var(--soft)}
+@media (max-width:640px){.funnel .row{grid-template-columns:1fr 90px}.funnel .track{grid-column:1/-1;order:3}}
+.explorer{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(300px,1fr);gap:16px;align-items:start}
+@media (max-width:900px){.explorer{grid-template-columns:minmax(0,1fr)}}
+.card{min-width:0}
+.fxbar{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.fxbar .aisle{width:100%;font-size:.8rem;color:var(--soft);font-weight:600;margin-top:4px}
+.chipbtn{font:inherit;font-size:.85rem;border:1px solid var(--rule);background:var(--surface);color:var(--ink);border-radius:999px;padding:4px 11px;cursor:pointer}
+.chipbtn[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chipbtn .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--review);margin-left:6px;vertical-align:1px}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:.85rem;color:var(--soft);margin:10px 0 0}
+.sw{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.toggle{display:flex;align-items:center;gap:8px;font-size:.9rem;margin-top:12px}
+svg{display:block;width:100%;height:auto}
+.slot{cursor:pointer}
+.slot rect.box{stroke:transparent;stroke-width:3}
+.slot:hover rect.box,.slot.sel rect.box{stroke:var(--ink)}
+.slot text{font-size:10.5px;fill:#fff;pointer-events:none;font-weight:500}
+.slot.gap text{fill:var(--ink)}
+.detail h3{margin:0 0 4px;font-size:1.1rem}
+.badge{display:inline-block;font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;padding:2px 8px;border-radius:999px;color:#fff}
+dl.meta{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:.9rem;margin:12px 0}
+dl.meta dt{color:var(--soft)}dl.meta dd{margin:0}
+table{border-collapse:collapse;width:100%;font-size:.86rem;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
+thead th{font-size:.75rem;color:var(--soft);text-transform:uppercase;letter-spacing:.04em}
+td.n,th.n{text-align:right}
+.tier{display:inline-block;font-size:.72rem;font-weight:600;padding:1px 7px;border-radius:5px;background:var(--chip);white-space:nowrap}
+.scroll{overflow-x:auto}
+.note{font-size:.8rem;color:var(--soft)}
+.verdict{font-weight:600}.verdict.ok{color:var(--in)}.verdict.no{color:var(--bad)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:820px){.two{grid-template-columns:1fr}}
+ul.clean{margin:0;padding-left:18px}ul.clean li{margin-bottom:5px}
+.costbar{margin:10px 0 16px}.costbar .lab{display:flex;justify-content:space-between;font-size:.92rem;margin-bottom:4px}
+pre{background:var(--chip);border-radius:8px;padding:12px;overflow-x:auto;font-size:.8rem;margin:8px 0 0}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.steps li{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:12px 14px;counter-increment:s}
+.steps li::before{content:counter(s);display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--accent);color:var(--paper);font-size:.8rem;font-weight:700;margin-bottom:6px}
+.steps b{display:block}.steps span{font-size:.88rem;color:var(--soft)}
+footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--rule);color:var(--soft);font-size:.88rem}
+</style>
+</head>
+<body>
+<div class="back"><a href="https://harish04010-portfolio.vercel.app">← Harish Gopu's portfolio</a></div>
+<main>
+  <p class="eyebrow">Data pipelines · entity resolution · hybrid AI</p>
+  <h1>Shelf Conflation Engine</h1>
+  <p class="lede">Turns noisy wearable-camera detections from three store walk-throughs into one versioned, verified record per shelf slot. Regex and rules go first, agreement within the same slot second, and an LLM gets only what's left.</p>
+  <div class="links"><a href="https://github.com/harish04010/shelf-conflation-engine">Code on GitHub</a><a href="#explore">Explore the store</a><a href="#versions">v1 vs v2</a></div>
+  <div class="kpis" id="kpis"></div>
+
+  <section>
+    <h2>Steps</h2>
+    <ol class="steps">
+      <li><b>Contract</b><span>Upgrade firmware schema v1 and v2 to one record; quarantine what breaks the contract.</span></li>
+      <li><b>Filter</b><span>Regex drops price tags and shelf signs before they become fake products.</span></li>
+      <li><b>Barcode</b><span>Validate check digits, normalize EAN-13, repair one-digit misreads when the text agrees.</span></li>
+      <li><b>Rules</b><span>Parse pack sizes, narrow by aisle and brand, fuzzy-match text, guard variants, demand a clear lead.</span></li>
+      <li><b>Conflate</b><span>Cluster sightings by position into slots; settle ambiguous reads by what the slot agrees on.</span></li>
+      <li><b>LLM or review</b><span>Only the residue, shown a shortlist, with the answer checked against it.</span></li>
+      <li><b>Publish</b><span>Golden records with lineage, written to a versioned run folder with a manifest.</span></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Where each detection was resolved</h2>
+    <p class="sub">Each tier is cheaper and more certain than the next. Accuracy is checked against the simulator's ground truth, which the pipeline never sees.</p>
+    <div class="card funnel" id="funnel"></div>
+  </section>
+
+  <section id="explore">
+    <h2>Explore the store</h2>
+    <p class="sub">Every block is a shelf slot's golden record, placed where the cameras saw it. Select a slot to see every sighting behind it, across all three passes.</p>
+    <div class="explorer">
+      <div class="card">
+        <div class="fxbar" id="fxbar" role="group" aria-label="Fixture"></div>
+        <div id="fixture"></div>
+        <div class="legend" id="legend"></div>
+        <label class="toggle"><input type="checkbox" id="truth"> Mark records that disagree with ground truth</label>
+      </div>
+      <div class="card detail" id="detail" aria-live="polite"><p class="note">Select a slot.</p></div>
+    </div>
+  </section>
+
+  <section id="versions">
+    <h2>Pipeline v1 vs v2</h2>
+    <p class="sub">Both versions run on the same input and write to their own versioned folders, so every change in output can be traced to a change in logic.</p>
+    <div class="two">
+      <div class="card scroll"><table id="vtable"></table></div>
+      <div class="card"><h3 style="margin:0 0 8px;font-size:1rem">What changed in v2</h3><ul class="clean" id="changes"></ul></div>
+    </div>
+    <div class="card scroll" style="margin-top:16px">
+      <h3 style="margin:0 0 4px;font-size:1rem">Slots where v1 and v2 disagree</h3>
+      <p class="note" id="diffnote" style="margin:0 0 8px"></p>
+      <table id="diffs"></table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Cost of the AI tier</h2>
+    <p class="sub" id="costsub"></p>
+    <div class="card" id="cost"></div>
+  </section>
+
+  <section>
+    <h2>Data contracts</h2>
+    <p class="sub">The edge firmware changed between passes 2 and 3: renamed fields, centimeters instead of meters, and the barcode moved into an object. Both versions are upgraded to one canonical record.</p>
+    <div class="two">
+      <div class="card"><b>Schema v1</b> <span class="note">(passes 1 and 2)</span><pre class="mono">{"schema_version": "1", "det_id": "p1-00012",
+ "fixture_id": "A1-L-B1", "x_m": 0.6231, "z_m": 0.1478,
+ "text": "Summit Fizz Cola ZRO 12oz",
+ "upc": "0081234000042", "conf": 0.91}</pre></div>
+      <div class="card"><b>Schema v2</b> <span class="note">(pass 3)</span><pre class="mono">{"schema_version": "2", "det_id": "p3-00012",
+ "fixture_id": "A1-L-B1", "pos_cm": {"x": 62.31, "z": 14.78},
+ "ocr_text": "Summit Fizz Cola ZRO 12oz",
+ "barcode": {"value": "081234000042", "symbology": "UPCA"},
+ "conf": 0.91, "bbox_px": [96, 210]}</pre></div>
+    </div>
+    <div class="card scroll" style="margin-top:16px"><h3 style="margin:0 0 8px;font-size:1rem" id="qhead"></h3><table id="quar"></table></div>
+  </section>
+
+  <section>
+    <h2>Limits</h2>
+    <ul class="clean">
+      <li><b>The data is simulated.</b> Brands are fictional and every barcode has a valid check digit; public product databases weren't reachable from the build environment. The simulator's noise (OCR errors, misreads, duplicates, schema change, shelf changes) is described in the README.</li>
+      <li><b>The LLM tier hasn't been run.</b> Without an API key, ambiguous detections go to a review queue. Costs are estimates from prompt length at assumed per-token prices.</li>
+      <li><b>A missed sighting looks like an empty shelf.</b> Some flagged gaps are real stock-outs and some are one camera miss; telling them apart needs another pass.</li>
+      <li><b>New items without a barcode</b> usually end up in review rather than being recognized as new, because their text resembles existing products. That's the safe failure.</li>
+    </ul>
+  </section>
+  <footer>Built by Harish Gopu · Python, RapidFuzz, scikit-learn · <a href="https://github.com/harish04010/shelf-conflation-engine">Source</a></footer>
+</main>
+<script>
+const COLORS = {in_stock: "var(--in)", changed: "var(--changed)", gap: "var(--gap)", new_item: "var(--new)", needs_review: "var(--review)"};
+const LABELS = {in_stock: "In stock", changed: "Changed", gap: "Not seen (gap)", new_item: "New item", needs_review: "Needs review"};
+const TIERS = [["filtered", "Filtered", "price tags, signs"], ["upc", "Barcode", "valid check digit"], ["upc_repair", "Barcode repair", "one digit misread"],
+  ["rules", "Rules", "size, brand, fuzzy text"], ["spatial", "Slot agreement", "same-slot consensus"], ["llm", "LLM", "shortlist only"],
+  ["review", "LLM or review", "ambiguous residue"], ["no_match", "No match", "possible new item"]];
+const TIERNAME = Object.fromEntries(TIERS.map(t => [t[0], t[1]]));
+const pct = (v, d = 1) => (v * 100).toFixed(d) + "%";
+const fmt = n => n.toLocaleString("en-US");
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+let D, current, selected;
+const clip = s => s.length > 12 ? s.slice(0, 11) + "…" : s;
+
+fetch("data.json").then(r => r.json()).then(d => { D = d; render(); });
+
+function render() {
+  const e = D.eval.v2, m = D.manifests.v2, det = e.detections;
+  const llmShare = (m.tiers.review || 0) + (m.tiers.llm || 0);
+  document.getElementById("kpis").innerHTML = [
+    [fmt(m.detections), `detections from ${D.summary.passes} passes over ${D.summary.fixtures} fixtures`],
+    [pct(e.auto_precision), `of automatic matches correct (${fmt(det.confident_correct)} of ${fmt(det.confident)})`],
+    [pct(e.catalog_coverage), "of catalog products resolved with no LLM"],
+    [pct(llmShare / m.detections), `left for the LLM or review (${llmShare} detections)`],
+    [Math.round(m.llm.all_detections_baseline_cost_usd / m.llm.est_cost_usd) + "×", "cheaper than sending every detection to an LLM (est.)"],
+  ].map(([b, s]) => `<div class="kpi"><b>${b}</b><span>${s}</span></div>`).join("");
+
+  const total = m.detections, per = e.per_tier;
+  document.getElementById("funnel").innerHTML = TIERS.filter(t => per[t[0]]).map(([k, name, hint]) => {
+    const t = per[k], acc = k === "review" ? "not auto-resolved" : `${fmt(t.correct || 0)} of ${fmt(t.n)} correct`;
+    return `<div class="row"><div class="lab"><b>${name}</b><span>${hint}</span></div>
+      <div class="track" role="img" aria-label="${name}: ${t.n} detections"><i style="width:${Math.max(0.6, t.n / total * 100)}%;background:${k === "review" ? "var(--review)" : k === "no_match" ? "var(--new)" : "var(--accent)"}"></i></div>
+      <div class="num">${fmt(t.n)} <small>${acc}</small></div></div>`;
+  }).join("");
+
+  const fxs = [...new Set(D.slots.map(s => s.fx))].sort();
+  const busy = fx => D.slots.filter(s => s.fx === fx && s.status !== "in_stock").length;
+  const byAisle = {};
+  fxs.forEach(f => (byAisle[f.split("-")[0]] ??= []).push(f));
+  const aisleName = {A1: "Aisle 1 · soda and sparkling water", A2: "Aisle 2 · chips", A3: "Aisle 3 · cereal and pasta sauce"};
+  document.getElementById("fxbar").innerHTML = Object.entries(byAisle).map(([a, list]) =>
+    `<div class="aisle">${aisleName[a] || a}</div>` + list.map(f => `<button class="chipbtn" data-fx="${f}" aria-pressed="false">${f.slice(3)}${busy(f) > 2 ? '<span class="dot" title="several slots need attention"></span>' : ""}</button>`).join("")).join("");
+  document.querySelectorAll(".chipbtn").forEach(b => b.onclick = () => showFixture(b.dataset.fx));
+  document.getElementById("legend").innerHTML = Object.entries(LABELS).map(([k, v]) =>
+    `<span><i class="sw" style="background:${COLORS[k]}"></i>${v} (${D.slots.filter(s => s.status === k).length})</span>`).join("");
+  document.getElementById("truth").onchange = () => showFixture(current);
+  showFixture(fxs.reduce((a, b) => busy(b) > busy(a) ? b : a));
+
+  renderVersions(); renderCost(); renderQuarantine();
+}
+
+function showFixture(fx) {
+  current = fx;
+  document.querySelectorAll(".chipbtn").forEach(b => b.setAttribute("aria-pressed", b.dataset.fx === fx));
+  const S = 400, W = 1.5 * S, H = 1.4 * S, slots = D.slots.filter(s => s.fx === fx), check = document.getElementById("truth").checked;
+  const y = z => H - z * S;
+  let svg = `<svg viewBox="-10 -10 ${W + 20} ${H + 20}" role="img" aria-label="Fixture ${fx}: ${slots.length} slots">`;
+  for (let i = 0; i <= 4; i++) svg += `<line x1="0" x2="${W}" y1="${y(i * 0.35)}" y2="${y(i * 0.35)}" stroke="var(--rule)" stroke-width="4"/>`;
+  for (const s of slots) {
+    const w = 0.22 * S, h = 0.27 * S, x0 = s.x * S - w / 2, y0 = y(s.z) - h / 2 - 6;
+    const wrong = check && s.truth && s.truth.correct === false;
+    const name = (s.product || s.unresolved?.[0] || "").replace(/ (\d+(\.\d+)? (fl oz|oz|L))$/, "|$1").split("|");
+    const words = name[0].split(" "), l1 = words.slice(0, 2).join(" "), l2 = words.slice(2).join(" ");
+    svg += `<g class="slot ${s.status} ${s.id === selected ? "sel" : ""}" tabindex="0" role="button" data-id="${s.id}" aria-label="${esc(LABELS[s.status])}: ${esc(s.product || "unresolved")}">
+      <rect class="box" x="${x0}" y="${y0}" width="${w}" height="${h}" rx="8" fill="${COLORS[s.status]}" ${s.status === "gap" ? 'fill-opacity="0.35"' : ""}/>
+      ${wrong ? `<rect x="${x0 - 4}" y="${y0 - 4}" width="${w + 8}" height="${h + 8}" rx="10" fill="none" stroke="var(--bad)" stroke-width="4" stroke-dasharray="8 5"/>` : ""}
+      <text x="${x0 + 8}" y="${y0 + 20}">${esc(clip(l1))}</text><text x="${x0 + 8}" y="${y0 + 35}">${esc(clip(l2))}</text>
+      <text x="${x0 + 8}" y="${y0 + h - 10}" opacity=".85">${esc(name[1] || "")}</text></g>`;
+  }
+  document.getElementById("fixture").innerHTML = svg + "</svg>";
+  document.querySelectorAll(".slot").forEach(g => {
+    g.onclick = () => showSlot(g.dataset.id);
+    g.onkeydown = ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); showSlot(g.dataset.id); } };
+  });
+  const richness = s => new Set(s.dets.map(d => D.dets[d].tier)).size * 10 + s.dets.length + (s.truth && s.truth.correct ? 5 : 0);
+  const first = slots.find(s => s.id === selected) || [...slots].sort((a, b) => richness(b) - richness(a))[0];
+  if (first) showSlot(first.id, false);
+}
+
+function showSlot(id, redraw = true) {
+  selected = id;
+  if (redraw) document.querySelectorAll(".slot").forEach(g => g.classList.toggle("sel", g.dataset.id === id));
+  const s = D.slots.find(x => x.id === id);
+  const t = s.truth;
+  const rows = s.dets.map(d => D.dets[d]).sort((a, b) => a.pass - b.pass).map(d => `<tr><td>${d.pass}</td><td class="mono">${esc(d.text)}</td>
+    <td class="mono">${esc(d.upc || "–")}</td><td><span class="tier">${TIERNAME[d.tier] || d.tier}</span></td>
+    <td>${d.gtin ? esc(nameOf(d.gtin)) : d.cands.length ? `<span class="note">${d.cands.length}-product shortlist, e.g. ${esc(d.cands.slice(0, 2).join("; "))}</span>` : "–"}${d.note ? `<div class="note">${esc(d.note)}</div>` : ""}</td></tr>`).join("");
+  document.getElementById("detail").innerHTML = `
+    <span class="badge" style="background:${COLORS[s.status]}">${LABELS[s.status]}</span>
+    <h3 style="margin-top:8px">${esc(s.product || "Unresolved")}</h3>
+    <dl class="meta"><dt>Slot</dt><dd class="mono">${esc(s.id)}</dd>
+      ${s.gtin ? `<dt>GTIN</dt><dd class="mono">${s.gtin}</dd>` : ""}
+      ${s.prev ? `<dt>Was</dt><dd>${esc(s.prev)}</dd>` : ""}
+      <dt>Sightings</dt><dd>${s.dets.length} across pass ${[...new Set(s.dets.map(d => D.dets[d].pass))].join(", ")} · ${Math.round(s.conf * s.dets.length)} resolved confidently</dd>
+      ${t ? `<dt>Ground truth</dt><dd>${esc(LABELS[t.status])}${t.product ? " · " + esc(t.product) : ""} <span class="verdict ${t.correct ? "ok" : "no"}">${t.correct ? "✓ matches" : "✗ differs"}</span></dd>` : ""}</dl>
+    <div class="scroll"><table><thead><tr><th>Pass</th><th>Camera text</th><th>Barcode</th><th>Tier</th><th>Resolved to</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function nameOf(gtin) { return D.names[gtin] || gtin; }
+
+function renderVersions() {
+  const a = D.eval.v1, b = D.eval.v2, ma = D.manifests.v1, mb = D.manifests.v2;
+  const rows = [
+    ["Automatic matches correct", pct(a.auto_precision), pct(b.auto_precision)],
+    ["Wrong product matches", fmt(a.wrong_matches), fmt(b.wrong_matches)],
+    ["Catalog detections resolved correctly", pct(a.catalog_coverage), pct(b.catalog_coverage)],
+    ["Fake slots from price tags", fmt(a.slots.spurious_records), fmt(b.slots.spurious_records)],
+    ["Slot status correct", pct(a.slots.status_accuracy), pct(b.slots.status_accuracy)],
+    ["Slot product correct", pct(a.slots.product_accuracy), pct(b.slots.product_accuracy)],
+    ["Output folder", `<span class="mono">${ma.pipeline_version}/run-${ma.input_hash}</span>`, `<span class="mono">${mb.pipeline_version}/run-${mb.input_hash}</span>`],
+  ];
+  document.getElementById("vtable").innerHTML = `<thead><tr><th>Measure</th><th class="n">v1</th><th class="n">v2</th></tr></thead><tbody>` +
+    rows.map(r => `<tr><td>${r[0]}</td><td class="n">${r[1]}</td><td class="n"><b>${r[2]}</b></td></tr>`).join("") + "</tbody>";
+  document.getElementById("changes").innerHTML = mb.changes.map(c => `<li>${esc(c)}</li>`).join("");
+  const right = D.diffs.filter(d => d.v2_right).length;
+  document.getElementById("diffnote").textContent = `${D.diff_count} slots changed between versions. In the ${D.diffs.length} shown, v2 matches ground truth in ${right}.`;
+  const cell = x => `${esc(LABELS[x.status] || x.status)}${x.product ? `<div class="note">${esc(x.product)}</div>` : ""}`;
+  document.getElementById("diffs").innerHTML = `<thead><tr><th>Slot</th><th>v1</th><th>v2</th><th>Ground truth</th><th></th></tr></thead><tbody>` +
+    D.diffs.slice(0, 12).map(d => `<tr><td class="mono">${esc(d.slot)}</td><td>${cell(d.v1)}</td><td>${cell(d.v2)}</td><td>${cell(d.truth)}</td>
+      <td class="verdict ${d.v2_right ? "ok" : "no"}">${d.v2_right ? "v2 ✓" : "v2 ✗"}</td></tr>`).join("") + "</tbody>";
+}
+
+function renderCost() {
+  const l = D.manifests.v2.llm, per = n => (n / D.manifests.v2.detections * 1000);
+  document.getElementById("costsub").textContent = `Estimated from prompt length at assumed rates of $${l.assumed_usd_per_million_tokens.input} and $${l.assumed_usd_per_million_tokens.output} per million input and output tokens. Swap in your model's prices; the ratio is what matters.`;
+  const max = l.all_detections_baseline_cost_usd;
+  const bar = (label, calls, cost, color) => `<div class="costbar"><div class="lab"><span>${label}</span><span class="mono">${fmt(calls)} calls · $${cost.toFixed(3)} · $${per(cost).toFixed(3)} per 1,000 detections</span></div>
+    <div class="track" style="height:22px"><i style="width:${Math.max(1, cost / max * 100)}%;background:${color}"></i></div></div>`;
+  document.getElementById("cost").innerHTML = bar("LLM for every detection (20-product shortlist each)", l.all_detections_baseline_calls, l.all_detections_baseline_cost_usd, "var(--gap)") +
+    bar("Tiered: rules and slot agreement first, LLM for the residue", l.calls, l.est_cost_usd, "var(--accent)") +
+    `<p class="note" style="margin:0">The tiered design also makes ${fmt(D.manifests.v2.detections - l.calls)} of the decisions deterministic and repeatable, which matters as much as the cost.</p>`;
+}
+
+function renderQuarantine() {
+  const q = D.quarantine, n = D.manifests.v2.quarantined;
+  document.getElementById("qhead").textContent = `${n} records quarantined (showing ${q.length})`;
+  document.getElementById("quar").innerHTML = `<thead><tr><th>Record</th><th>Schema</th><th>Reason</th></tr></thead><tbody>` +
+    q.map(r => `<tr><td class="mono">${esc(r.det_id)}</td><td>v${esc(r.schema_version)}</td><td>${esc(r.reason)}</td></tr>`).join("") + "</tbody>";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{"det_id": "p1-00119", "schema_version": "1", "reason": "missing or invalid field: 'x_m'"}
+{"det_id": "p1-00266", "schema_version": "1", "reason": "missing or invalid field: 'x_m'"}
+{"det_id": "p1-00454", "schema_version": "1", "reason": "missing or invalid field: 'x_m'"}
+{"det_id": "p2-00144", "schema_version": "1", "reason": "missing or invalid field: 'x_m'"}
+{"det_id": "p2-00147", "schema_version": "1", "reason": "missing or invalid field: 'x_m'"}
+{"det_id": "p2-00205", "schema_version": "1", "reason": "missing or invalid field: 'x_m'"}
+{"det_id": "p2-00212", "schema_version": "1", "reason": "missing or invalid field: 'fixture_id'"}
+{"det_id": "p2-00263", "schema_version": "1", "reason": "missing or invalid field: 'x_m'"}
+{"det_id": "p2-00332", "schema_version": "1", "reason": "missing or invalid field: 'x_m'"}
+{"det_id": "p2-00337", "schema_version": "1", "reason": "missing or invalid field: 'x_m'"}
+{"det_id": "p3-00010", "schema_version": "2", "reason": "missing or invalid field: 'pos_cm'"}
+{"det_id": "p3-00031", "schema_version": "2", "reason": "missing or invalid field: 'pos_cm'"}
+{"det_id": "p3-00046", "schema_version": "2", "reason": "missing or invalid field: 'pos_cm'"}
+{"det_id": "p3-00308", "schema_version": "2", "reason": "missing or invalid field: 'pos_cm'"}
+{"det_id": "p3-00319", "schema_version": "2", "reason": "missing or invalid field: 'pos_cm'"}

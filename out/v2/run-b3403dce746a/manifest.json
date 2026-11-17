@@ -1,0 +1,50 @@
+{
+  "pipeline_version": "v2",
+  "changes": [
+    "Price tags and shelf signs filtered by regex before matching",
+    "Barcodes validated by check digit; EAN-13 leading zeros normalized",
+    "One-digit barcode misreads repaired when the text agrees",
+    "Pack sizes parsed (12oz, 355 mL, 2L, 227g) and used to rule candidates in or out",
+    "Brand and aisle used to narrow candidates; variant guard (Zero Sugar is not Original)",
+    "A match needs a 6-point lead over the runner-up, otherwise it is ambiguous",
+    "Ambiguous detections resolved by agreement within the same shelf slot",
+    "Only the remaining residue goes to an LLM (or a review queue)"
+  ],
+  "input_hash": "b3403dce746a",
+  "schema_versions_seen": {
+    "1": 913,
+    "2": 444
+  },
+  "records_in": 1357,
+  "quarantined": 15,
+  "detections": 1342,
+  "tiers": {
+    "filtered": 37,
+    "no_match": 2,
+    "review": 61,
+    "rules": 253,
+    "spatial": 322,
+    "upc": 551,
+    "upc_repair": 116
+  },
+  "spatial_resolved": 322,
+  "golden_records": 432,
+  "status_counts": {
+    "in_stock": 367,
+    "gap": 37,
+    "changed": 6,
+    "needs_review": 21,
+    "new_item": 1
+  },
+  "llm": {
+    "calls": 61,
+    "est_tokens": 7767,
+    "est_cost_usd": 0.037,
+    "all_detections_baseline_calls": 1342,
+    "all_detections_baseline_cost_usd": 1.6569,
+    "assumed_usd_per_million_tokens": {
+      "input": 3.0,
+      "output": 15.0
+    }
+  }
+}

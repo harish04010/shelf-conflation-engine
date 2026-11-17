@@ -1,0 +1,39 @@
+{
+  "pipeline_version": "v1",
+  "changes": [
+    "Exact barcode lookup",
+    "Fuzzy text match over the whole catalog, accepted at score 85"
+  ],
+  "input_hash": "b3403dce746a",
+  "schema_versions_seen": {
+    "1": 913,
+    "2": 444
+  },
+  "records_in": 1357,
+  "quarantined": 15,
+  "detections": 1342,
+  "tiers": {
+    "no_match": 216,
+    "rules": 741,
+    "upc": 385
+  },
+  "spatial_resolved": 0,
+  "golden_records": 468,
+  "status_counts": {
+    "new_item": 66,
+    "changed": 132,
+    "gap": 62,
+    "in_stock": 208
+  },
+  "llm": {
+    "calls": 0,
+    "est_tokens": 0,
+    "est_cost_usd": 0.0,
+    "all_detections_baseline_calls": 1342,
+    "all_detections_baseline_cost_usd": 1.6569,
+    "assumed_usd_per_million_tokens": {
+      "input": 3.0,
+      "output": 15.0
+    }
+  }
+}

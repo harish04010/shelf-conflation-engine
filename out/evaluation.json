@@ -1,0 +1,128 @@
+{
+  "v1": {
+    "detections": {
+      "confident": 1126,
+      "confident_correct": 815,
+      "catalog_total": 1299,
+      "catalog_resolved_correctly": 815,
+      "price_tag_total": 37,
+      "new_item_total": 6
+    },
+    "per_tier": {
+      "no_match": {
+        "n": 216,
+        "correct": 43
+      },
+      "rules": {
+        "n": 741,
+        "correct": 430
+      },
+      "upc": {
+        "n": 385,
+        "correct": 385
+      }
+    },
+    "auto_precision": 0.7238,
+    "catalog_coverage": 0.6274,
+    "wrong_matches": 311,
+    "slots": {
+      "true_slots": 432,
+      "missed": 0,
+      "spurious_records": 36,
+      "mixed_clusters": 1,
+      "split_slots": 0,
+      "status_accuracy": 0.5694,
+      "product_accuracy": 0.6601,
+      "confusion": {
+        "in_stock": {
+          "new_item": 49,
+          "changed": 120,
+          "in_stock": 208,
+          "gap": 16
+        },
+        "gap": {
+          "gap": 20
+        },
+        "changed": {
+          "changed": 12,
+          "gap": 1
+        },
+        "new_item": {
+          "new_item": 6
+        }
+      }
+    }
+  },
+  "v2": {
+    "detections": {
+      "confident": 1242,
+      "confident_correct": 1239,
+      "catalog_total": 1299,
+      "catalog_resolved_correctly": 1239,
+      "price_tag_total": 37,
+      "new_item_total": 6
+    },
+    "per_tier": {
+      "filtered": {
+        "n": 37,
+        "correct": 37
+      },
+      "no_match": {
+        "n": 2,
+        "correct": 1
+      },
+      "review": {
+        "n": 61
+      },
+      "rules": {
+        "n": 253,
+        "correct": 252
+      },
+      "spatial": {
+        "n": 322,
+        "correct": 320
+      },
+      "upc": {
+        "n": 551,
+        "correct": 551
+      },
+      "upc_repair": {
+        "n": 116,
+        "correct": 116
+      }
+    },
+    "auto_precision": 0.9976,
+    "catalog_coverage": 0.9538,
+    "wrong_matches": 3,
+    "slots": {
+      "true_slots": 432,
+      "missed": 0,
+      "spurious_records": 0,
+      "mixed_clusters": 0,
+      "split_slots": 0,
+      "status_accuracy": 0.9074,
+      "product_accuracy": 0.9458,
+      "confusion": {
+        "in_stock": {
+          "in_stock": 365,
+          "gap": 16,
+          "needs_review": 12
+        },
+        "gap": {
+          "gap": 20
+        },
+        "changed": {
+          "changed": 6,
+          "needs_review": 5,
+          "in_stock": 1,
+          "gap": 1
+        },
+        "new_item": {
+          "needs_review": 4,
+          "in_stock": 1,
+          "new_item": 1
+        }
+      }
+    }
+  }
+}
